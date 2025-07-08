@@ -67,68 +67,46 @@ proxies:
   udp: false
   skip-cert-verify: true
   url: https://games.roblox.com
+
+  
 - name: SK5
   server: 61.255.174.163
   <<: *proxies-default
-- name: Korea 2
-  server: 221.168.46.1
+- name: KT10
+  server: 27.255.92.24
   <<: *proxies-default
 - name: KT 11
   server: 27.255.79.138
   <<: *proxies-default
-- name: KT 03
-  server: 160.202.162.160
-  <<: *proxies-default
-- name: SK3
-  server: 61.255.174.139
+- name: Korea 2
+  server: 221.168.46.1
   <<: *proxies-default
 - name: KT 01
   server: 160.202.163.35
   <<: *proxies-default
-- name: Korea 3
-  server: 222.112.127.1
-  <<: *proxies-default
-- name: KT 05
-  server: 103.212.222.251
-  <<: *proxies-default
-- name: KT 02
-  server: 160.202.163.163
-  <<: *proxies-default
-- name: LG 1
-  server: 27.255.82.17
-  <<: *proxies-default
-- name: SK4
-  server: 61.255.174.149
-  <<: *proxies-default
-- name: China Telecom
-  server: 61.97.249.156
-  <<: *proxies-default
-- name: Korea 1
-  server: 211.54.63.1
-  <<: *proxies-default
-- name: SK6
-  server: 61.255.174.164
-  <<: *proxies-default
-- name: Korea 5
-  server: 221.168.46.2
-  <<: *proxies-default
-- name: China Telecom 2
-  server: 61.97.249.14
+- name: KT 04
+  server: 27.255.75.131
   <<: *proxies-default
 - name: KT 07
   server: 160.202.162.162
   <<: *proxies-default
-- name: SK1
-  server: 61.255.174.137
+- name: Korea 3
+  server: 222.112.127.1
+  <<: *proxies-default
+- name: KT 02
+  server: 160.202.163.163
+  <<: *proxies-default
+- name: Korea 4
+  server: 211.54.63.2
   <<: *proxies-default
 - name: Korea 6
   server: 222.112.127.2
   <<: *proxies-default
-- name: KT 04
-  server: 27.255.75.131
+- name: LG 1
+  server: 27.255.82.17
   <<: *proxies-default
-- name: SK2
-  server: 61.255.174.138
+- name: KT 03
+  server: 160.202.162.160
   <<: *proxies-default
 - name: Youtube Premium
   server: 121.170.203.151
@@ -136,9 +114,27 @@ proxies:
 - name: KT 06
   server: 160.202.162.161
   <<: *proxies-default
-- name: Korea 4
-  server: 211.54.63.2
+- name: SK1
+  server: 61.255.174.137
   <<: *proxies-default
-- name: KT10
-  server: 27.255.92.24
+- name: Korea 1
+  server: 211.54.63.1
+  <<: *proxies-default
+- name: Korea 5
+  server: 221.168.46.2
+  <<: *proxies-default
+- name: KT 05
+  server: 103.212.222.251
+  <<: *proxies-default
+- name: SK4
+  server: 61.255.174.149
+  <<: *proxies-default
+- name: SK2
+  server: 61.255.174.138
+  <<: *proxies-default
+- name: SK3
+  server: 61.255.174.139
+  <<: *proxies-default
+- name: SK6
+  server: 61.255.174.164
   <<: *proxies-default
