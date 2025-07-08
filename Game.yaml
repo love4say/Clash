@@ -1,0 +1,144 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: global
+ipv6: false
+log-level: error
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+    - 219.250.36.130
+    - 210.220.163.82
+    - 168.126.63.1
+    - 168.126.63.2
+    - 8.8.8.8
+    - 164.124.101.2
+    - 203.248.252.2
+proxies-default: &proxies-default
+  type: ssr
+  port: 45270
+  cipher: aes-256-ctr
+  password: iUgcRF
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  skip-cert-verify: true
+  url: https://games.roblox.com
+
+proxies:
+- name: KR BatVPN_1
+  type: ss
+  server: bja.lightssocks.com
+  port: 33342
+  cipher: aes-256-gcm
+  password: nSwbqBHG
+  udp: true
+  skip-cert-verify: true
+  url: https://games.roblox.com
+- name: KR BatVPN_2
+  type: ss
+  server: gdb.lightssocks.com
+  port: 33338
+  cipher: aes-256-gcm
+  password: nSwbqBHG
+  udp: true
+  skip-cert-verify: true
+  url: https://games.roblox.com
+- name: KR PingPrime1
+  type: hysteria2
+  server: love4say.duckdns.org
+  port: 21109
+  password: love4say_1004ksy
+  alpn:
+    - h3
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  url: https://games.roblox.com
+- name: KR PingPrime2
+  type: ss
+  server: love4say.duckdns.org
+  port: 21132
+  cipher: aes-256-gcm
+  password: love4say_1004ksy
+  udp: false
+  skip-cert-verify: true
+  url: https://games.roblox.com
+- name: SK5
+  server: 61.255.174.163
+  <<: *proxies-default
+- name: Korea 2
+  server: 221.168.46.1
+  <<: *proxies-default
+- name: KT 11
+  server: 27.255.79.138
+  <<: *proxies-default
+- name: KT 03
+  server: 160.202.162.160
+  <<: *proxies-default
+- name: SK3
+  server: 61.255.174.139
+  <<: *proxies-default
+- name: KT 01
+  server: 160.202.163.35
+  <<: *proxies-default
+- name: Korea 3
+  server: 222.112.127.1
+  <<: *proxies-default
+- name: KT 05
+  server: 103.212.222.251
+  <<: *proxies-default
+- name: KT 02
+  server: 160.202.163.163
+  <<: *proxies-default
+- name: LG 1
+  server: 27.255.82.17
+  <<: *proxies-default
+- name: SK4
+  server: 61.255.174.149
+  <<: *proxies-default
+- name: China Telecom
+  server: 61.97.249.156
+  <<: *proxies-default
+- name: Korea 1
+  server: 211.54.63.1
+  <<: *proxies-default
+- name: SK6
+  server: 61.255.174.164
+  <<: *proxies-default
+- name: Korea 5
+  server: 221.168.46.2
+  <<: *proxies-default
+- name: China Telecom 2
+  server: 61.97.249.14
+  <<: *proxies-default
+- name: KT 07
+  server: 160.202.162.162
+  <<: *proxies-default
+- name: SK1
+  server: 61.255.174.137
+  <<: *proxies-default
+- name: Korea 6
+  server: 222.112.127.2
+  <<: *proxies-default
+- name: KT 04
+  server: 27.255.75.131
+  <<: *proxies-default
+- name: SK2
+  server: 61.255.174.138
+  <<: *proxies-default
+- name: Youtube Premium
+  server: 121.170.203.151
+  <<: *proxies-default
+- name: KT 06
+  server: 160.202.162.161
+  <<: *proxies-default
+- name: Korea 4
+  server: 211.54.63.2
+  <<: *proxies-default
+- name: KT10
+  server: 27.255.92.24
+  <<: *proxies-default
