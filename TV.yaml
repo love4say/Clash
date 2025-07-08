@@ -47,6 +47,16 @@ proxies:
   udp: true
   skip-cert-verify: true
   url: https://www.netflix.com/kr
+- name: KR PingPrime
+  type: hysteria2
+  server: love4say.duckdns.org
+  port: 21109
+  password: love4say_1004ksy
+  alpn:
+  - h3
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: KR PingPrime2
   type: ss
   server: love4say.duckdns.org
