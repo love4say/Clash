@@ -56,6 +56,27 @@ proxies:
   udp: false
   skip-cert-verify: true
   url: https://www.netflix.com/kr
+- name: KR_유료1
+  type: trojan
+  server: ip0axvlbbsu02k7-kr.1ytnode.com
+  port: 56361
+  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
+  udp: true
+  skip-cert-verify: true
+- name: KR_유료2
+  type: trojan
+  server: ip0axvlbbsu02k7-kr.1ytnode.com
+  port: 56362
+  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
+  udp: true
+  skip-cert-verify: true
+- name: KR_유료3
+  type: trojan
+  server: ip0axvlbbsu02k7-kr.1ytnode.com
+  port: 56363
+  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
+  udp: true
+  skip-cert-verify: true
 - name: SK5
   server: 61.255.174.163
   <<: *proxies-default
