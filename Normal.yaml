@@ -79,81 +79,75 @@ proxies:
   password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
   udp: true
   skip-cert-verify: true
-- name: SK5
-  server: 61.255.174.163
-  <<: *proxies-default
-- name: Korea 2
-  server: 221.168.46.1
-  <<: *proxies-default
-- name: KT 11
-  server: 27.255.79.138
-  <<: *proxies-default
-- name: KT 03
-  server: 160.202.162.160
-  <<: *proxies-default
-- name: SK3
-  server: 61.255.174.139
-  <<: *proxies-default
-- name: KT 01
-  server: 160.202.163.35
-  <<: *proxies-default
-- name: Korea 3
-  server: 222.112.127.1
-  <<: *proxies-default
-- name: KT 05
-  server: 103.212.222.251
-  <<: *proxies-default
-- name: KT 02
-  server: 160.202.163.163
-  <<: *proxies-default
-- name: LG 1
-  server: 27.255.82.17
-  <<: *proxies-default
-- name: SK4
-  server: 61.255.174.149
-  <<: *proxies-default
-- name: China Telecom
-  server: 61.97.249.156
-  <<: *proxies-default
-- name: Korea 1
-  server: 211.54.63.1
-  <<: *proxies-default
-- name: SK6
-  server: 61.255.174.164
-  <<: *proxies-default
-- name: Korea 5
-  server: 221.168.46.2
-  <<: *proxies-default
-- name: China Telecom 2
-  server: 61.97.249.14
-  <<: *proxies-default
-- name: KT 07
-  server: 160.202.162.162
-  <<: *proxies-default
-- name: SK1
-  server: 61.255.174.137
-  <<: *proxies-default
-- name: Korea 6
-  server: 222.112.127.2
-  <<: *proxies-default
-- name: KT 04
-  server: 27.255.75.131
-  <<: *proxies-default
-- name: SK2
-  server: 61.255.174.138
-  <<: *proxies-default
-- name: Youtube Premium
-  server: 121.170.203.151
-  <<: *proxies-default
-- name: KT 06
-  server: 160.202.162.161
-  <<: *proxies-default
-- name: Korea 4
-  server: 211.54.63.2
-  <<: *proxies-default
-- name: KT10
-  server: 27.255.92.24
-  <<: *proxies-default
+  - name: SK5
+    server: 61.255.174.163
+    <<: *proxies-default
+  - name: KT10
+    server: 27.255.92.24
+    <<: *proxies-default
+  - name: KT 11
+    server: 27.255.79.138
+    <<: *proxies-default
+  - name: Korea 2
+    server: 221.168.46.1
+    <<: *proxies-default
+  - name: KT 01
+    server: 160.202.163.35
+    <<: *proxies-default
+  - name: KT 04
+    server: 27.255.75.131
+    <<: *proxies-default
+  - name: KT 07
+    server: 160.202.162.162
+    <<: *proxies-default
+  - name: Korea 3
+    server: 222.112.127.1
+    <<: *proxies-default
+  - name: KT 02
+    server: 160.202.163.163
+    <<: *proxies-default
+  - name: Korea 4
+    server: 211.54.63.2
+    <<: *proxies-default
+  - name: Korea 6
+    server: 222.112.127.2
+    <<: *proxies-default
+  - name: LG 1
+    server: 27.255.82.17
+    <<: *proxies-default
+  - name: KT 03
+    server: 160.202.162.160
+    <<: *proxies-default
+  - name: Youtube Premium
+    server: 121.170.203.151
+    <<: *proxies-default
+  - name: KT 06
+    server: 160.202.162.161
+    <<: *proxies-default
+  - name: SK1
+    server: 61.255.174.137
+    <<: *proxies-default
+  - name: Korea 1
+    server: 211.54.63.1
+    <<: *proxies-default
+  - name: Korea 5
+    server: 221.168.46.2
+    <<: *proxies-default
+  - name: KT 05
+    server: 103.212.222.251
+    <<: *proxies-default
+  - name: SK4
+    server: 61.255.174.149
+    <<: *proxies-default
+  - name: SK2
+    server: 61.255.174.138
+    <<: *proxies-default
+  - name: SK3
+    server: 61.255.174.139
+    <<: *proxies-default
+  - name: SK6
+    server: 61.255.174.164
+    <<: *proxies-default
 
 proxy-groups:
 - name: 🎥 넷플릭스
@@ -169,28 +163,28 @@ proxy-groups:
   - KR BatVPN_1
   - KR BatVPN_2
   - SK5
-  - Korea 2
+  - KT10
   - KT 11
-  - KT 03
-  - SK3
+  - Korea 2
   - KT 01
-  - Korea 3
-  - KT 05
-  - KT 02
-  - LG 1
-  - SK4
-  - Korea 1
-  - SK6
-  - Korea 5
-  - KT 07
-  - SK1
-  - Korea 6
   - KT 04
-  - SK2
+  - KT 07
+  - Korea 3
+  - KT 02
+  - Korea 4
+  - Korea 6
+  - LG 1
+  - KT 03
   - Youtube Premium
   - KT 06
-  - Korea 4
-  - KT10
+  - SK1
+  - Korea 1
+  - Korea 5
+  - KT 05
+  - SK4
+  - SK2
+  - SK3
+  - SK6
 
 - name: 🔰 VPN설정
   type: select
