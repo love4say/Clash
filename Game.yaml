@@ -57,7 +57,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  url: https://games.roblox.com
 - name: KR PingPrime2
   type: ss
   server: love4say.duckdns.org
@@ -66,7 +65,6 @@ proxies:
   password: love4say_1004ksy
   udp: false
   skip-cert-verify: true
-  url: https://games.roblox.com
 
   
 - name: SK5
