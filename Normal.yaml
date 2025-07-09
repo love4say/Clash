@@ -67,7 +67,7 @@ proxies:
   port: 21132
   cipher: aes-256-gcm
   password: love4say_1004ksy
-  udp: false
+  udp: true
 
 - name: KR_유료1
   port: 56361
