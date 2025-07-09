@@ -26,27 +26,31 @@ proxies-default: &proxies-default
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   skip-cert-verify: true
-  url: https://www.netflix.com/kr
+
+BatVPN: &BatVPN
+  type: ss  
+  cipher: aes-256-gcm
+  password: nSwbqBHG
+  udp: true
+
+1ytnode: &1ytnode
+  type: trojan
+  server: ip0axvlbbsu02k7-kr.1ytnode.com
+  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
+  udp: true
+  skip-cert-verify: true
 
 proxies:
+
 - name: KR BatVPN_1
-  type: ss
   server: bja.lightssocks.com
   port: 33342
-  cipher: aes-256-gcm
-  password: nSwbqBHG
-  udp: true
-  skip-cert-verify: true
-  url: https://www.netflix.com/kr
+  <<: *BatVPN
 - name: KR BatVPN_2
-  type: ss
   server: gdb.lightssocks.com
   port: 33338
-  cipher: aes-256-gcm
-  password: nSwbqBHG
-  udp: true
-  skip-cert-verify: true
-  url: https://www.netflix.com/kr
+  <<: *BatVPN
+
 - name: KR PingPrime
   type: hysteria2
   server: love4say.duckdns.org
@@ -63,33 +67,18 @@ proxies:
   port: 21132
   cipher: aes-256-gcm
   password: love4say_1004ksy
-  udp: false
-  skip-cert-verify: true
-  url: https://www.netflix.com/kr
+  udp: true
+
 - name: KR_유료1
-  type: trojan
-  server: ip0axvlbbsu02k7-kr.1ytnode.com
   port: 56361
-  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
-  udp: true
-  skip-cert-verify: true
+  <<: *1ytnode
 - name: KR_유료2
-  type: trojan
-  server: ip0axvlbbsu02k7-kr.1ytnode.com
   port: 56362
-  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
-  udp: true
-  skip-cert-verify: true
+  <<: *1ytnode
 - name: KR_유료3
-  type: trojan
-  server: ip0axvlbbsu02k7-kr.1ytnode.com
   port: 56363
-  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
-  udp: true
-  skip-cert-verify: true
+  <<: *1ytnode
 
-
-  
 - name: SK5
   server: 61.255.174.163
   <<: *proxies-default
