@@ -26,16 +26,13 @@ proxies-default: &proxies-default
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   skip-cert-verify: true
+
 BatVPN: &BatVPN
   type: ss  
   cipher: aes-256-gcm
   password: nSwbqBHG
   udp: true
-PingPrime: &PingPrime
-  type: ss  
-  cipher: aes-256-gcm
-  password: nSwbqBHG
-  udp: true
+
 1ytnode: &1ytnode
   type: trojan
   server: ip0axvlbbsu02k7-kr.1ytnode.com
