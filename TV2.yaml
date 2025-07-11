@@ -42,15 +42,6 @@ BatVPN: &BatVPN
 
 proxies:
 
-- name: KR BatVPN_1
-  server: bja.lightssocks.com
-  port: 33342
-  <<: *BatVPN
-- name: KR BatVPN_2
-  server: gdb.lightssocks.com
-  port: 33338
-  <<: *BatVPN
-
 - name: KR PingPrime
   type: hysteria2
   server: love4say.duckdns.org
@@ -68,6 +59,17 @@ proxies:
   cipher: aes-256-gcm
   password: love4say_1004ksy
   udp: true
+  
+
+- name: KR BatVPN_1
+  server: bja.lightssocks.com
+  port: 33342
+  <<: *BatVPN
+- name: KR BatVPN_2
+  server: gdb.lightssocks.com
+  port: 33338
+  <<: *BatVPN
+
 
 - name: KR_유료1
   port: 56361
