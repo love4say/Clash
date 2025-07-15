@@ -242,6 +242,7 @@ proxy-groups:
   proxies:
   - 🎥 넷플릭스
 rules:
+- DOMAIN-KEYWORD,panda,🎯 全球直连
 - DOMAIN-KEYWORD,linkedin,🔰 VPN설정
 - DOMAIN-KEYWORD,cloudflare,🎥 넷플릭스
 - DOMAIN-KEYWORD,newtoki,🎥 넷플릭스
