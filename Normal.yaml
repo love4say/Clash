@@ -23,15 +23,15 @@ AA: &AA
   type: ssr
   port: 43360
   cipher: aes-256-ctr
-  password: UPYbpR 
+  password: UPYbpR
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
 BB: &BB
   type: ssr
-  port: 64739 
+  port: 64739
   cipher: aes-256-ctr
-  password: jZvgD2 
+  password: jZvgD2
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
@@ -39,7 +39,7 @@ CC: &CC
   type: ssr
   port: 45270
   cipher: aes-256-ctr
-  password: iUgcRF 
+  password: iUgcRF
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
