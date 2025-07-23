@@ -57,94 +57,95 @@ nPmKX: &nPmKX
 proxies:
 - name: Korea 1_ZJ5kz
   server: 61.255.174.139
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 2_ZJ5kz
   server: 160.202.162.160
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 3_ZJ5kz
   server: 103.212.222.251
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 4_ZJ5kz
   server: 27.255.82.17
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 5_ZJ5kz
   server: 61.255.174.139
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 6_ZJ5kz
   server: 211.54.63.1
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 7_ZJ5kz
   server: 160.202.163.163
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 8_ZJ5kz
   server: 61.255.174.163
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 9_ZJ5kz
   server: 222.112.127.2
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 10_ZJ5kz
   server: 121.170.203.151
-    <<: *ZJ5kz
+<<: *ZJ5kz
 - name: Korea 1_2vFeA
   server: 61.255.174.139
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 2_2vFeA
   server: 160.202.162.160
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 3_2vFeA
   server: 103.212.222.251
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 4_2vFeA
   server: 27.255.82.17
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 5_2vFeA
   server: 61.255.174.139
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 6_2vFeA
   server: 211.54.63.1
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 7_2vFeA
   server: 160.202.163.163
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 8_2vFeA
   server: 61.255.174.163
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 9_2vFeA
   server: 222.112.127.2
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 10_2vFeA
   server: 121.170.203.151
-    <<: *2vFeA
+<<: *2vFeA
 - name: Korea 1_nPmKX
   server: 61.255.174.139
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 2_nPmKX
   server: 160.202.162.160
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 3_nPmKX
   server: 103.212.222.251
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 4_nPmKX
   server: 27.255.82.17
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 5_nPmKX
   server: 61.255.174.139
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 6_nPmKX
   server: 211.54.63.1
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 7_nPmKX
   server: 160.202.163.163
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 8_nPmKX
   server: 61.255.174.163
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 9_nPmKX
   server: 222.112.127.2
-    <<: *nPmKX
+<<: *nPmKX
 - name: Korea 10_nPmKX
   server: 121.170.203.151
-    <<: *nPmKX
+<<: *nPmKX
+
 
 
 - name: KR BatVPN_1
