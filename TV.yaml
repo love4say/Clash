@@ -156,7 +156,7 @@ proxies:
 - name: Korea 4_2vFeA
   server: 211.54.63.2
   <<: *2vFeA
-- name: Korea 6_ZJ5kz
+- name: Korea 6_2vFeA
   server: 222.112.127.2
   <<: *2vFeA
 - name: Youtube Premium_2vFeA
