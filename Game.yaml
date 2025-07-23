@@ -128,62 +128,62 @@ proxies:
 
 - name: Korea 2_ZJ5kz
   server: 221.168.46.1
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Korea 3_ZJ5kz
   server: 222.112.127.1
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Korea 4_ZJ5kz
   server: 211.54.63.2
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Korea 6_ZJ5kz
   server: 222.112.127.2
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Youtube Premium_ZJ5kz
   server: 121.170.203.151
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Korea 1_ZJ5kz
   server: 211.54.63.1
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: Korea 5_ZJ5kz
   server: 221.168.46.2
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: KT 1
   server: 160.202.163.35
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: LG 1
   server: 27.255.82.17
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 - name: SK1
   server: 61.255.174.137
-  <<: *ZJ5kz: &ZJ5kz
+  <<: *ZJ5kz
 
 - name: Korea 2_2vFeA
   server: 221.168.46.1
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Korea 3_2vFeA
   server: 222.112.127.1
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Korea 4_2vFeA
   server: 211.54.63.2
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Korea 6_ZJ5kz
   server: 222.112.127.2
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Youtube Premium_2vFeA
   server: 121.170.203.151
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Korea 1_2vFeA
   server: 211.54.63.1
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: Korea 5_2vFeA
   server: 221.168.46.2
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: KT 1
   server: 160.202.163.35
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: LG 1
   server: 27.255.82.17
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
 - name: SK1
   server: 61.255.174.137
-  <<: *2vFeA: &2vFeA
+  <<: *2vFeA
