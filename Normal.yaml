@@ -18,11 +18,28 @@ dns:
     - 8.8.8.8
     - 164.124.101.2
     - 203.248.252.2
-proxies-default: &proxies-default
+
+ZJ5kz: &ZJ5kz
   type: ssr
   port: 43360
   cipher: aes-256-ctr
   password: UPYbpR
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+
+2vFeA: &2vFeA
+  type: ssr
+  port: 64739
+  cipher: aes-256-ctr
+  password: jZvgD2
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+
+proxies-default: &proxies-default
+  type: ssr
+  port: 45270
+  cipher: aes-256-ctr
+  password: iUgcRF
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   skip-cert-verify: true
@@ -79,32 +96,11 @@ proxies:
   port: 56363
   <<: *1ytnode
 
-- name: SK5
-  server: 61.255.174.163
-  <<: *proxies-default
-- name: KT10
-  server: 27.255.92.24
-  <<: *proxies-default
-- name: KT 11
-  server: 27.255.79.138
-  <<: *proxies-default
 - name: Korea 2
   server: 221.168.46.1
   <<: *proxies-default
-- name: KT 01
-  server: 160.202.163.35
-  <<: *proxies-default
-- name: KT 04
-  server: 27.255.75.131
-  <<: *proxies-default
-- name: KT 07
-  server: 160.202.162.162
-  <<: *proxies-default
 - name: Korea 3
   server: 222.112.127.1
-  <<: *proxies-default
-- name: KT 02
-  server: 160.202.163.163
   <<: *proxies-default
 - name: Korea 4
   server: 211.54.63.2
@@ -112,20 +108,8 @@ proxies:
 - name: Korea 6
   server: 222.112.127.2
   <<: *proxies-default
-- name: LG 1
-  server: 27.255.82.17
-  <<: *proxies-default
-- name: KT 03
-  server: 160.202.162.160
-  <<: *proxies-default
 - name: Youtube Premium
   server: 121.170.203.151
-  <<: *proxies-default
-- name: KT 06
-  server: 160.202.162.161
-  <<: *proxies-default
-- name: SK1
-  server: 61.255.174.137
   <<: *proxies-default
 - name: Korea 1
   server: 211.54.63.1
@@ -133,21 +117,77 @@ proxies:
 - name: Korea 5
   server: 221.168.46.2
   <<: *proxies-default
-- name: KT 05
-  server: 103.212.222.251
+- name: KT 1
+  server: 160.202.163.35
   <<: *proxies-default
-- name: SK4
-  server: 61.255.174.149
+- name: LG 1
+  server: 27.255.82.17
   <<: *proxies-default
-- name: SK2
-  server: 61.255.174.138
+- name: SK1
+  server: 61.255.174.137
   <<: *proxies-default
-- name: SK3
-  server: 61.255.174.139
-  <<: *proxies-default
-- name: SK6
-  server: 61.255.174.164
-  <<: *proxies-default
+
+- name: Korea 2_ZJ5kz
+  server: 221.168.46.1
+  <<: *ZJ5kz
+- name: Korea 3_ZJ5kz
+  server: 222.112.127.1
+  <<: *ZJ5kz
+- name: Korea 4_ZJ5kz
+  server: 211.54.63.2
+  <<: *ZJ5kz
+- name: Korea 6_ZJ5kz
+  server: 222.112.127.2
+  <<: *ZJ5kz
+- name: Youtube Premium_ZJ5kz
+  server: 121.170.203.151
+  <<: *ZJ5kz
+- name: Korea 1_ZJ5kz
+  server: 211.54.63.1
+  <<: *ZJ5kz
+- name: Korea 5_ZJ5kz
+  server: 221.168.46.2
+  <<: *ZJ5kz
+- name: KT 1_ZJ5kz
+  server: 160.202.163.35
+  <<: *ZJ5kz
+- name: LG 1_ZJ5kz
+  server: 27.255.82.17
+  <<: *ZJ5kz
+- name: SK 1_ZJ5kz
+  server: 61.255.174.137
+  <<: *ZJ5kz
+
+- name: Korea 2_2vFeA
+  server: 221.168.46.1
+  <<: *2vFeA
+- name: Korea 3_2vFeA
+  server: 222.112.127.1
+  <<: *2vFeA
+- name: Korea 4_2vFeA
+  server: 211.54.63.2
+  <<: *2vFeA
+- name: Korea 6_2vFeA
+  server: 222.112.127.2
+  <<: *2vFeA
+- name: Youtube Premium_2vFeA
+  server: 121.170.203.151
+  <<: *2vFeA
+- name: Korea 1_2vFeA
+  server: 211.54.63.1
+  <<: *2vFeA
+- name: Korea 5_2vFeA
+  server: 221.168.46.2
+  <<: *2vFeA
+- name: KT 1_2vFeA
+  server: 160.202.163.35
+  <<: *2vFeA
+- name: LG 1_2vFeA
+  server: 27.255.82.17
+  <<: *2vFeA
+- name: SK 1_2vFeA
+  server: 61.255.174.137
+  <<: *2vFeA
 
 proxy-groups:
 - name: 🎥 넷플릭스
@@ -162,29 +202,37 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - SK5
-  - KT10
-  - KT 11
-  - Korea 2
-  - KT 01
-  - KT 04
-  - KT 07
-  - Korea 3
-  - KT 02
-  - Korea 4
-  - Korea 6
+  - SK 1
+  - KT 1
   - LG 1
-  - KT 03
-  - Youtube Premium
-  - KT 06
-  - SK1
   - Korea 1
+  - Korea 2
+  - Korea 3
+  - Korea 4
   - Korea 5
-  - KT 05
-  - SK4
-  - SK2
-  - SK3
-  - SK6
+  - Korea 6
+  - Youtube Premium
+  - SK 1_ZJ5kz
+  - KT 1_ZJ5kz
+  - LG 1_ZJ5kz
+  - Korea 1_ZJ5kz
+  - Korea 2_ZJ5kz
+  - Korea 3_ZJ5kz
+  - Korea 4_ZJ5kz
+  - Korea 5_ZJ5kz
+  - Korea 6_ZJ5kz
+  - Youtube Premium_ZJ5kz
+  - SK 1_2vFeA
+  - KT 1_2vFeA
+  - LG 1_2vFeA
+  - Korea 1_2vFeA
+  - Korea 2_2vFeA
+  - Korea 3_2vFeA
+  - Korea 4_2vFeA
+  - Korea 5_2vFeA
+  - Korea 6_2vFeA
+  - Youtube Premium_2vFeA
+
 
 - name: 🔰 VPN설정
   type: select
