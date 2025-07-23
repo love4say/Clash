@@ -35,8 +35,9 @@ BatVPN: &BatVPN
 proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
-  protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  
 ZJ5kz: &ZJ5kz
   password: UPYbp
   port: 43360
