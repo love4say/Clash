@@ -6,7 +6,6 @@ allow-lan: false
 mode: global
 ipv6: false
 log-level: error
-url: https://games.roblox.com
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -25,19 +24,22 @@ BatVPN: &BatVPN
   cipher: aes-256-gcm
   password: nSwbqBHG
   udp: true
-
+  url: https://games.roblox.com
+  
 1ytnode: &1ytnode
   type: trojan
   server: ip0axvlbbsu02k7-kr.1ytnode.com
   password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
   udp: true
   skip-cert-verify: true
-
+  url: https://games.roblox.com
+  
 proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
+  url: https://games.roblox.com
 
 ZJ5kz: &ZJ5kz
   port: 43360
