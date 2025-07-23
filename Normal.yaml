@@ -19,27 +19,9 @@ dns:
     - 164.124.101.2
     - 203.248.252.2
 
-1tme1: &itme1
+proxies-default: &proxies-default
   type: ssr
-  port: 43360
   cipher: aes-256-ctr
-  password: UPYbpR
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-
-1tme2: &itme2
-  type: ssr
-  port: 64739
-  cipher: aes-256-ctr
-  password: jZvgD2
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-
-1tme3: &itme3
-  type: ssr
-  port: 45270
-  cipher: aes-256-ctr
-  password: iUgcRF
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
@@ -97,94 +79,154 @@ proxies:
 
 - name: Korea 1_1
   server: 61.255.174.139
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 2_1
   server: 160.202.162.160
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 3_1
   server: 103.212.222.251
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 4_1
   server: 27.255.82.17
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 5_1
   server: 61.255.174.139
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 6_1
   server: 211.54.63.1
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 7_1
   server: 160.202.163.163
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 8_1
   server: 61.255.174.163
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 9_1
   server: 222.112.127.2
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 10_1
   server: 121.170.203.151
-  <<: *1time1
+  port: 43360
+  password: UPYbpR
+  <<: proxies-default: &proxies-default
 - name: Korea 1_2
   server: 61.255.174.139
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 2_2
   server: 160.202.162.160
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 3_2
   server: 103.212.222.251
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 4_2
   server: 27.255.82.17
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 5_2
   server: 61.255.174.139
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 6_2
   server: 211.54.63.1
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 7_2
   server: 160.202.163.163
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 8_2
   server: 61.255.174.163
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 9_2
   server: 222.112.127.2
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 10_2
   server: 121.170.203.151
-  <<: *1time2
+  port: 64739
+  password: jZvgD2
+  <<: proxies-default: &proxies-default
 - name: Korea 1_3
   server: 61.255.174.139
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 2_3
   server: 160.202.162.160
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 3_3
   server: 103.212.222.251
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 4_3
   server: 27.255.82.17
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 5_3
   server: 61.255.174.139
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 6_3
   server: 211.54.63.1
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 7_3
   server: 160.202.163.163
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 8_3
   server: 61.255.174.163
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 9_3
   server: 222.112.127.2
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 - name: Korea 10_3
   server: 121.170.203.151
-  <<: *1time3
+  port: 45270
+  password: iUgcRF
+  <<: proxies-default: &proxies-default
 
 
 
