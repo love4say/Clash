@@ -126,7 +126,7 @@ proxies:
   server: 61.255.174.137
   <<: *proxies-default
 
-  - name: Korea 2_ZJ5kz
+- name: Korea 2_ZJ5kz
   server: 221.168.46.1
   <<: *ZJ5kz: &ZJ5kz
 - name: Korea 3_ZJ5kz
@@ -147,7 +147,7 @@ proxies:
 - name: Korea 5_ZJ5kz
   server: 221.168.46.2
   <<: *ZJ5kz: &ZJ5kz
-  - name: KT 1
+- name: KT 1
   server: 160.202.163.35
   <<: *ZJ5kz: &ZJ5kz
 - name: LG 1
@@ -157,7 +157,7 @@ proxies:
   server: 61.255.174.137
   <<: *ZJ5kz: &ZJ5kz
 
-    - name: Korea 2_2vFeA
+- name: Korea 2_2vFeA
   server: 221.168.46.1
   <<: *2vFeA: &2vFeA
 - name: Korea 3_2vFeA
@@ -178,7 +178,7 @@ proxies:
 - name: Korea 5_2vFeA
   server: 221.168.46.2
   <<: *2vFeA: &2vFeA
-  - name: KT 1
+- name: KT 1
   server: 160.202.163.35
   <<: *2vFeA: &2vFeA
 - name: LG 1
