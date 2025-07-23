@@ -95,96 +95,97 @@ proxies:
   port: 56363
   <<: *1ytnode
 
-- name: Korea 1_AA
+- name: Korea 1_1
   server: 61.255.174.139
-  <<: *AA
-- name: Korea 2_AA
+  <<: *1time1
+- name: Korea 2_1
   server: 160.202.162.160
-  <<: *AA
-- name: Korea 3_AA
+  <<: *1time1
+- name: Korea 3_1
   server: 103.212.222.251
-  <<: *AA
-- name: Korea 4_AA
+  <<: *1time1
+- name: Korea 4_1
   server: 27.255.82.17
-  <<: *AA
-- name: Korea 5_AA
+  <<: *1time1
+- name: Korea 5_1
   server: 61.255.174.139
-  <<: *AA
-- name: Korea 6_AA
+  <<: *1time1
+- name: Korea 6_1
   server: 211.54.63.1
-  <<: *AA
-- name: Korea 7_AA
+  <<: *1time1
+- name: Korea 7_1
   server: 160.202.163.163
-  <<: *AA
-- name: Korea 8_AA
+  <<: *1time1
+- name: Korea 8_1
   server: 61.255.174.163
-  <<: *AA
-- name: Korea 9_AA
+  <<: *1time1
+- name: Korea 9_1
   server: 222.112.127.2
-  <<: *AA
-- name: Korea 10_AA
+  <<: *1time1
+- name: Korea 10_1
   server: 121.170.203.151
-  <<: *AA
-- name: Korea 1_BB
+  <<: *1time1
+- name: Korea 1_2
   server: 61.255.174.139
-  <<: *BB
-- name: Korea 2_BB
+  <<: *1time2
+- name: Korea 2_2
   server: 160.202.162.160
-  <<: *BB
-- name: Korea 3_BB
+  <<: *1time2
+- name: Korea 3_2
   server: 103.212.222.251
-  <<: *BB
-- name: Korea 4_BB
+  <<: *1time2
+- name: Korea 4_2
   server: 27.255.82.17
-  <<: *BB
-- name: Korea 5_BB
+  <<: *1time2
+- name: Korea 5_2
   server: 61.255.174.139
-  <<: *BB
-- name: Korea 6_BB
+  <<: *1time2
+- name: Korea 6_2
   server: 211.54.63.1
-  <<: *BB
-- name: Korea 7_BB
+  <<: *1time2
+- name: Korea 7_2
   server: 160.202.163.163
-  <<: *BB
-- name: Korea 8_BB
+  <<: *1time2
+- name: Korea 8_2
   server: 61.255.174.163
-  <<: *BB
-- name: Korea 9_BB
+  <<: *1time2
+- name: Korea 9_2
   server: 222.112.127.2
-  <<: *BB
-- name: Korea 10_BB
+  <<: *1time2
+- name: Korea 10_2
   server: 121.170.203.151
-  <<: *BB
-- name: Korea 1_CC
+  <<: *1time2
+- name: Korea 1_3
   server: 61.255.174.139
-  <<: *CC
-- name: Korea 2_CC
+  <<: *1time3
+- name: Korea 2_3
   server: 160.202.162.160
-  <<: *CC
-- name: Korea 3_CC
+  <<: *1time3
+- name: Korea 3_3
   server: 103.212.222.251
-  <<: *CC
-- name: Korea 4_CC
+  <<: *1time3
+- name: Korea 4_3
   server: 27.255.82.17
-  <<: *CC
-- name: Korea 5_CC
+  <<: *1time3
+- name: Korea 5_3
   server: 61.255.174.139
-  <<: *CC
-- name: Korea 6_CC
+  <<: *1time3
+- name: Korea 6_3
   server: 211.54.63.1
-  <<: *CC
-- name: Korea 7_CC
+  <<: *1time3
+- name: Korea 7_3
   server: 160.202.163.163
-  <<: *CC
-- name: Korea 8_CC
+  <<: *1time3
+- name: Korea 8_3
   server: 61.255.174.163
-  <<: *CC
-- name: Korea 9_CC
+  <<: *1time3
+- name: Korea 9_3
   server: 222.112.127.2
-  <<: *CC
-- name: Korea 10_CC
+  <<: *1time3
+- name: Korea 10_3
   server: 121.170.203.151
-  <<: *CC
+  <<: *1time3
+
 
 
 
