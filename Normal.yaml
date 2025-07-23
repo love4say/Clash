@@ -32,7 +32,6 @@ BatVPN: &BatVPN
   udp: true
   skip-cert-verify: true
 
- 
 ZJ5kz: &ZJ5kz
   type: ssr
   port: 43360
