@@ -32,61 +32,26 @@ BatVPN: &BatVPN
   udp: true
   skip-cert-verify: true
 
-  proxies-default: &proxies-default
+proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
-  protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+
 ZJ5kz: &ZJ5kz
-  password: UPYbp
   port: 43360
+  password: UPYbpR
+
 2vFeA: &2vFeA
-  password: jZvgD
   port: 64739
+  password: jZvgD2
+
 nPmKX: &nPmKX
-  password: iUgcR
   port: 45270
+  password: iUgcRF
 
 
 proxies:
-
-- name: KR BatVPN_1
-  server: bja.lightssocks.com
-  port: 33342
-  <<: *BatVPN
-- name: KR BatVPN_2
-  server: gdb.lightssocks.com
-  port: 33338
-  <<: *BatVPN
-
-- name: KR PingPrime
-  type: hysteria2
-  server: love4say.duckdns.org
-  port: 21109
-  password: love4say_1004ksy
-  alpn:
-  - h3
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: KR PingPrime2
-  type: ss
-  server: love4say.duckdns.org
-  port: 21132
-  cipher: aes-256-gcm
-  password: love4say_1004ksy
-  udp: true
-
-- name: KR_유료1
-  port: 56361
-  <<: *1ytnode
-- name: KR_유료2
-  port: 56362
-  <<: *1ytnode
-- name: KR_유료3
-  port: 56363
-  <<: *1ytnode
-
 - name: Korea 1_ZJ5kz
   server: 61.255.174.139
   <<: *proxies-default
@@ -208,3 +173,39 @@ proxies:
   <<: *proxies-default
   <<: *nPmKX
 
+- name: KR BatVPN_1
+  server: bja.lightssocks.com
+  port: 33342
+  <<: *BatVPN
+- name: KR BatVPN_2
+  server: gdb.lightssocks.com
+  port: 33338
+  <<: *BatVPN
+
+- name: KR PingPrime
+  type: hysteria2
+  server: love4say.duckdns.org
+  port: 21109
+  password: love4say_1004ksy
+  alpn:
+  - h3
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: KR PingPrime2
+  type: ss
+  server: love4say.duckdns.org
+  port: 21132
+  cipher: aes-256-gcm
+  password: love4say_1004ksy
+  udp: true
+
+- name: KR_유료1
+  port: 56361
+  <<: *1ytnode
+- name: KR_유료2
+  port: 56362
+  <<: *1ytnode
+- name: KR_유료3
+  port: 56363
+  <<: *1ytnode
