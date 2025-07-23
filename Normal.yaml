@@ -19,7 +19,7 @@ dns:
     - 164.124.101.2
     - 203.248.252.2
 
-AA: &AA
+1tme1: &itme1
   type: ssr
   port: 43360
   cipher: aes-256-ctr
@@ -27,7 +27,7 @@ AA: &AA
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-BB: &BB
+1tme2: &itme2
   type: ssr
   port: 64739
   cipher: aes-256-ctr
@@ -35,7 +35,7 @@ BB: &BB
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-CC: &CC
+1tme3: &itme3
   type: ssr
   port: 45270
   cipher: aes-256-ctr
