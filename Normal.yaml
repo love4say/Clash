@@ -36,17 +36,16 @@ proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
+  obfs: tls1.2_ticket_auth
 ZJ5kz: &ZJ5kz
-  password: UPYbp
+  password: UPYbp
   port: 43360
 2vFeA: &2vFeA
-  password: jZvgD
+  password: jZvgD
   port: 64739
 nPmKX: &nPmKX
-  password: iUgcR
+  password: iUgcR
   port: 45270
-
 
 proxies:
 - name: Korea 1_ZJ5kz
