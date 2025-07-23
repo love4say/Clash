@@ -32,163 +32,119 @@ BatVPN: &BatVPN
   udp: true
   skip-cert-verify: true
 
-proxies-default: &proxies-default
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
+ZJ5kz: &ZJ5kz
+    type: ssr
+    port: 45270
+    cipher: aes-256-ctr
+    password: iUgcRF
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+2vFeA: &2vFeA
+    type: ssr
+    port: 64739
+    cipher: aes-256-ctr
+    password: jZvgD2
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+nPmKX: &nPmKX
+    type: ssr
+    port: 45270
+    cipher: aes-256-ctr
+    password: iUgcRF 
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
 
 proxies:
-- name: Korea 1_1
+- name: Korea 1_ZJ5kz
   server: 61.255.174.139
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 2_1
+  <<: *ZJ5kz
+- name: Korea 2_ZJ5kz
   server: 160.202.162.160
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 3_1
+  <<: *ZJ5kz
+- name: Korea 3_ZJ5kz
   server: 103.212.222.251
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 4_1
+  <<: *ZJ5kz
+- name: Korea 4_ZJ5kz
   server: 27.255.82.17
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 5_1
+  <<: *ZJ5kz
+- name: Korea 5_ZJ5kz
   server: 61.255.174.139
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 6_1
+  <<: *ZJ5kz
+- name: Korea 6_ZJ5kz
   server: 211.54.63.1
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 7_1
+  <<: *ZJ5kz
+- name: Korea 7_ZJ5kz
   server: 160.202.163.163
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 8_1
+  <<: *ZJ5kz
+- name: Korea 8_ZJ5kz
   server: 61.255.174.163
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 9_1
+  <<: *ZJ5kz
+- name: Korea 9_ZJ5kz
   server: 222.112.127.2
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 10_1
+  <<: *ZJ5kz
+- name: Korea 10_ZJ5kz
   server: 121.170.203.151
-  port: 43360
-  password: UPYbpR
-  <<: *proxies-default
-- name: Korea 1_2
+  <<: *ZJ5kz
+- name: Korea 1_2vFeA
   server: 61.255.174.139
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 2_2
+  <<: *2vFeA
+- name: Korea 2_2vFeA
   server: 160.202.162.160
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 3_2
+  <<: *2vFeA
+- name: Korea 3_2vFeA
   server: 103.212.222.251
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 4_2
+  <<: *2vFeA
+- name: Korea 4_2vFeA
   server: 27.255.82.17
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 5_2
+  <<: *2vFeA
+- name: Korea 5_2vFeA
   server: 61.255.174.139
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 6_2
+  <<: *2vFeA
+- name: Korea 6_2vFeA
   server: 211.54.63.1
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 7_2
+  <<: *2vFeA
+- name: Korea 7_2vFeA
   server: 160.202.163.163
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 8_2
+  <<: *2vFeA
+- name: Korea 8_2vFeA
   server: 61.255.174.163
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 9_2
+  <<: *2vFeA
+- name: Korea 9_2vFeA
   server: 222.112.127.2
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 10_2
+  <<: *2vFeA
+- name: Korea 10_2vFeA
   server: 121.170.203.151
-  port: 64739
-  password: jZvgD2
-  <<: *proxies-default
-- name: Korea 1_3
+  <<: *2vFeA
+- name: Korea 1_nPmKX
   server: 61.255.174.139
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 2_3
+  <<: *nPmKX
+- name: Korea 2_nPmKX
   server: 160.202.162.160
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 3_3
+  <<: *nPmKX
+- name: Korea 3_nPmKX
   server: 103.212.222.251
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 4_3
+  <<: *nPmKX
+- name: Korea 4_nPmKX
   server: 27.255.82.17
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 5_3
+  <<: *nPmKX
+- name: Korea 5_nPmKX
   server: 61.255.174.139
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 6_3
+  <<: *nPmKX
+- name: Korea 6_nPmKX
   server: 211.54.63.1
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 7_3
+  <<: *nPmKX
+- name: Korea 7_nPmKX
   server: 160.202.163.163
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 8_3
+  <<: *nPmKX
+- name: Korea 8_nPmKX
   server: 61.255.174.163
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 9_3
+  <<: *nPmKX
+- name: Korea 9_nPmKX
   server: 222.112.127.2
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
-- name: Korea 10_3
+  <<: *nPmKX
+- name: Korea 10_nPmKX
   server: 121.170.203.151
-  port: 45270
-  password: iUgcRF
-  <<: *proxies-default
+  <<: *nPmKX
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -242,36 +198,37 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - Korea 1_AA
-  - Korea 2_AA
-  - Korea 3_AA
-  - Korea 4_AA
-  - Korea 5_AA
-  - Korea 6_AA
-  - Korea 7_AA
-  - Korea 8_AA
-  - Korea 9_AA
-  - Korea 10_AA
-  - Korea 1_BB
-  - Korea 2_BB
-  - Korea 3_BB
-  - Korea 4_BB
-  - Korea 5_BB
-  - Korea 6_BB
-  - Korea 7_BB
-  - Korea 8_BB
-  - Korea 9_BB
-  - Korea 10_BB
-  - Korea 1_CC
-  - Korea 2_CC
-  - Korea 3_CC
-  - Korea 4_CC
-  - Korea 5_CC
-  - Korea 6_CC
-  - Korea 7_CC
-  - Korea 8_CC
-  - Korea 9_CC
-  - Korea 10_CC
+  - Korea 1_ZJ5kz
+  - Korea 2_ZJ5kz
+  - Korea 3_ZJ5kz
+  - Korea 4_ZJ5kz
+  - Korea 5_ZJ5kz
+  - Korea 6_ZJ5kz
+  - Korea 7_ZJ5kz
+  - Korea 8_ZJ5kz
+  - Korea 9_ZJ5kz
+  - Korea 10_ZJ5kz
+  - Korea 1_2vFeA
+  - Korea 2_2vFeA
+  - Korea 3_2vFeA
+  - Korea 4_2vFeA
+  - Korea 5_2vFeA
+  - Korea 6_2vFeA
+  - Korea 7_2vFeA
+  - Korea 8_2vFeA
+  - Korea 9_2vFeA
+  - Korea 10_2vFeA
+  - Korea 1_nPmKX
+  - Korea 2_nPmKX
+  - Korea 3_nPmKX
+  - Korea 4_nPmKX
+  - Korea 5_nPmKX
+  - Korea 6_nPmKX
+  - Korea 7_nPmKX
+  - Korea 8_nPmKX
+  - Korea 9_nPmKX
+  - Korea 10_nPmKX
+
 
 - name: 🔰 VPN설정
   type: select
