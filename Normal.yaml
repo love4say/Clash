@@ -19,7 +19,7 @@ dns:
     - 164.124.101.2
     - 203.248.252.2
 
-ZJ5kz: &ZJ5kz
+AA: &AA
   type: ssr
   port: 43360
   cipher: aes-256-ctr
@@ -27,7 +27,7 @@ ZJ5kz: &ZJ5kz
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-2vFeA: &2vFeA
+BB: &BB
   type: ssr
   port: 64739 
   cipher: aes-256-ctr
@@ -35,7 +35,7 @@ ZJ5kz: &ZJ5kz
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-nPmKX: &nPmKX
+CC: &CC
   type: ssr
   port: 45270
   cipher: aes-256-ctr
@@ -95,96 +95,97 @@ proxies:
   port: 56363
   <<: *1ytnode
 
-- name: Korea 1_ZJ5kz
+- name: Korea 1_AA
   server: 61.255.174.139
-  <<: *ZJ5kz
-- name: Korea 2_ZJ5kz
+  <<: *AA
+- name: Korea 2_AA
   server: 160.202.162.160
-  <<: *ZJ5kz
-- name: Korea 3_ZJ5kz
+  <<: *AA
+- name: Korea 3_AA
   server: 103.212.222.251
-  <<: *ZJ5kz
-- name: Korea 4_ZJ5kz
+  <<: *AA
+- name: Korea 4_AA
   server: 27.255.82.17
-  <<: *ZJ5kz
-- name: Korea 5_ZJ5kz
+  <<: *AA
+- name: Korea 5_AA
   server: 61.255.174.139
-  <<: *ZJ5kz
-- name: Korea 6_ZJ5kz
+  <<: *AA
+- name: Korea 6_AA
   server: 211.54.63.1
-  <<: *ZJ5kz
-- name: Korea 7_ZJ5kz
+  <<: *AA
+- name: Korea 7_AA
   server: 160.202.163.163
-  <<: *ZJ5kz
-- name: Korea 8_ZJ5kz
+  <<: *AA
+- name: Korea 8_AA
   server: 61.255.174.163
-  <<: *ZJ5kz
-- name: Korea 9_ZJ5kz
+  <<: *AA
+- name: Korea 9_AA
   server: 222.112.127.2
-  <<: *ZJ5kz
-- name: Korea 10_ZJ5kz
+  <<: *AA
+- name: Korea 10_AA
   server: 121.170.203.151
-  <<: *ZJ5kz
-- name: Korea 1_2vFeA
+  <<: *AA
+- name: Korea 1_BB
   server: 61.255.174.139
-  <<: *2vFeA
-- name: Korea 2_2vFeA
+  <<: *BB
+- name: Korea 2_BB
   server: 160.202.162.160
-  <<: *2vFeA
-- name: Korea 3_2vFeA
+  <<: *BB
+- name: Korea 3_BB
   server: 103.212.222.251
-  <<: *2vFeA
-- name: Korea 4_2vFeA
+  <<: *BB
+- name: Korea 4_BB
   server: 27.255.82.17
-  <<: *2vFeA
-- name: Korea 5_2vFeA
+  <<: *BB
+- name: Korea 5_BB
   server: 61.255.174.139
-  <<: *2vFeA
-- name: Korea 6_2vFeA
+  <<: *BB
+- name: Korea 6_BB
   server: 211.54.63.1
-  <<: *2vFeA
-- name: Korea 7_2vFeA
+  <<: *BB
+- name: Korea 7_BB
   server: 160.202.163.163
-  <<: *2vFeA
-- name: Korea 8_2vFeA
+  <<: *BB
+- name: Korea 8_BB
   server: 61.255.174.163
-  <<: *2vFeA
-- name: Korea 9_2vFeA
+  <<: *BB
+- name: Korea 9_BB
   server: 222.112.127.2
-  <<: *2vFeA
-- name: Korea 10_2vFeA
+  <<: *BB
+- name: Korea 10_BB
   server: 121.170.203.151
-  <<: *2vFeA
-- name: Korea 1_nPmKX
+  <<: *BB
+- name: Korea 1_CC
   server: 61.255.174.139
-  <<: *nPmKX
-- name: Korea 2_nPmKX
+  <<: *CC
+- name: Korea 2_CC
   server: 160.202.162.160
-  <<: *nPmKX
-- name: Korea 3_nPmKX
+  <<: *CC
+- name: Korea 3_CC
   server: 103.212.222.251
-  <<: *nPmKX
-- name: Korea 4_nPmKX
+  <<: *CC
+- name: Korea 4_CC
   server: 27.255.82.17
-  <<: *nPmKX
-- name: Korea 5_nPmKX
+  <<: *CC
+- name: Korea 5_CC
   server: 61.255.174.139
-  <<: *nPmKX
-- name: Korea 6_nPmKX
+  <<: *CC
+- name: Korea 6_CC
   server: 211.54.63.1
-  <<: *nPmKX
-- name: Korea 7_nPmKX
+  <<: *CC
+- name: Korea 7_CC
   server: 160.202.163.163
-  <<: *nPmKX
-- name: Korea 8_nPmKX
+  <<: *CC
+- name: Korea 8_CC
   server: 61.255.174.163
-  <<: *nPmKX
-- name: Korea 9_nPmKX
+  <<: *CC
+- name: Korea 9_CC
   server: 222.112.127.2
-  <<: *nPmKX
-- name: Korea 10_nPmKX
+  <<: *CC
+- name: Korea 10_CC
   server: 121.170.203.151
-  <<: *nPmKX
+  <<: *CC
+
 
 
 proxy-groups:
@@ -200,36 +201,36 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - Korea 1_ZJ5kz
-  - Korea 2_ZJ5kz
-  - Korea 3_ZJ5kz
-  - Korea 4_ZJ5kz
-  - Korea 5_ZJ5kz
-  - Korea 6_ZJ5kz
-  - Korea 7_ZJ5kz
-  - Korea 8_ZJ5kz
-  - Korea 9_ZJ5kz
-  - Korea 10_ZJ5kz
-  - Korea 1_2vFeA
-  - Korea 2_2vFeA
-  - Korea 3_2vFeA
-  - Korea 4_2vFeA
-  - Korea 5_2vFeA
-  - Korea 6_2vFeA
-  - Korea 7_2vFeA
-  - Korea 8_2vFeA
-  - Korea 9_2vFeA
-  - Korea 10_2vFeA
-  - Korea 1_nPmKX
-  - Korea 2_nPmKX
-  - Korea 3_nPmKX
-  - Korea 4_nPmKX
-  - Korea 5_nPmKX
-  - Korea 6_nPmKX
-  - Korea 7_nPmKX
-  - Korea 8_nPmKX
-  - Korea 9_nPmKX
-  - Korea 10_nPmKX
+  - Korea 1_AA
+  - Korea 2_AA
+  - Korea 3_AA
+  - Korea 4_AA
+  - Korea 5_AA
+  - Korea 6_AA
+  - Korea 7_AA
+  - Korea 8_AA
+  - Korea 9_AA
+  - Korea 10_AA
+  - Korea 1_BB
+  - Korea 2_BB
+  - Korea 3_BB
+  - Korea 4_BB
+  - Korea 5_BB
+  - Korea 6_BB
+  - Korea 7_BB
+  - Korea 8_BB
+  - Korea 9_BB
+  - Korea 10_BB
+  - Korea 1_CC
+  - Korea 2_CC
+  - Korea 3_CC
+  - Korea 4_CC
+  - Korea 5_CC
+  - Korea 6_CC
+  - Korea 7_CC
+  - Korea 8_CC
+  - Korea 9_CC
+  - Korea 10_CC
 
 - name: 🔰 VPN설정
   type: select
