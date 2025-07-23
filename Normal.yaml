@@ -35,17 +35,18 @@ BatVPN: &BatVPN
 proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
 ZJ5kz: &ZJ5kz
-  port: 43360
   password: UPYbp
+  port: 43360
 2vFeA: &2vFeA
-  port: 64739
   password: jZvgD
+  port: 64739
 nPmKX: &nPmKX
-  port: 45270
   password: iUgcR
+  port: 45270
+
 
 proxies:
 - name: Korea 1_ZJ5kz
