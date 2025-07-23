@@ -85,19 +85,19 @@ proxies:
   <<: *1ytnode
 
 - name: Korea 1_ZJ5kz
-  server: 61.255.174.139
+  server: 121.170.203.151
   <<: *ZJ5kz
 - name: Korea 2_ZJ5kz
-  server: 160.202.162.160
+  server: 160.202.163.35
   <<: *ZJ5kz
 - name: Korea 3_ZJ5kz
-  server: 103.212.222.251
+  server: 61.255.174.149
   <<: *ZJ5kz
 - name: Korea 4_ZJ5kz
-  server: 27.255.82.17
+  server: 222.112.127.1
   <<: *ZJ5kz
 - name: Korea 5_ZJ5kz
-  server: 61.255.174.139
+  server: 103.212.222.251
   <<: *ZJ5kz
 - name: Korea 6_ZJ5kz
   server: 211.54.63.1
@@ -114,6 +114,7 @@ proxies:
 - name: Korea 10_ZJ5kz
   server: 121.170.203.151
   <<: *ZJ5kz
+
 - name: Korea 1_2vFeA
   server: 61.255.174.139
   <<: *2vFeA
