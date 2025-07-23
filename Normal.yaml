@@ -21,9 +21,9 @@ dns:
 
 ZJ5kz: &ZJ5kz
   type: ssr
-  port: 45270
+  port: 43360
   cipher: aes-256-ctr
-  password: iUgcRF
+  password: UPYbpR 
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
