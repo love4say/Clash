@@ -19,7 +19,7 @@ dns:
     - 164.124.101.2
     - 203.248.252.2
 
-ZJ5kz: ZJ5kz
+ZJ5kz: &ZJ5kz
   type: ssr
   port: 45270
   cipher: aes-256-ctr
@@ -27,7 +27,7 @@ ZJ5kz: ZJ5kz
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-2vFeA: 2vFeA
+2vFeA: &2vFeA
   type: ssr
   port: 64739
   cipher: aes-256-ctr
@@ -35,7 +35,7 @@ ZJ5kz: ZJ5kz
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-nPmKX: nPmKX
+nPmKX: &nPmKX
   type: ssr
   port: 45270
   cipher: aes-256-ctr
