@@ -34,21 +34,21 @@ BatVPN: &BatVPN
 
  
 ZJ5kz: &ZJ5kz
-  type: ssr
+  type: ssr
   port: 43360
   cipher: aes-256-ctr
   password: UPYbp
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 2vFeA: &2vFeA
-type: ssr
+  type: ssr
   port: 64739
   cipher: aes-256-ctr
   password: jZvgD
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 nPmKX: &nPmKX
-  type: ssr
+  type: ssr
   port: 45270
   cipher: aes-256-ctr
   password: iUgcR
