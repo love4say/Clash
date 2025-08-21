@@ -32,142 +32,146 @@ BatVPN: &BatVPN
   udp: true
   skip-cert-verify: true
 
-ZJ5kz: &ZJ5kz
-  port: 43360
-  password: UPYbpR
-  Type: ssr
+proxies-default: &proxies-default
+  type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
+
+ZJ5kz: &ZJ5kz
+  port: 43360
+  password: UPYbpR
 
 2vFeA: &2vFeA
   port: 64739
   password: jZvgD2
-  Type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  
+
 nPmKX: &nPmKX
   port: 45270
   password: iUgcRF
-  Type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  
-n5VVV: &n5VVV
-  port: 62271
-  password: yA5KHh
-  Type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  
-KSFPX: &nPmKX
-  port: 29494
-  password: MbqBrq
-  Type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  
+
+
 proxies:
 - name: Korea 1_ZJ5kz
-  server: 160.202.162.162
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 2_ZJ5kz
-  server: 61.255.174.138
+  server: 160.202.162.160
+  <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 3_ZJ5kz
-  server: 211.54.63.1
+  server: 103.212.222.251
+  <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 4_ZJ5kz
-  server: 221.168.46.1
+  server: 27.255.82.17
+  <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 5_ZJ5kz
-  server: 160.202.163.35
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *ZJ5kz
-
+- name: Korea 6_ZJ5kz
+  server: 211.54.63.1
+  <<: *proxies-default
+  <<: *ZJ5kz
+- name: Korea 7_ZJ5kz
+  server: 160.202.163.163
+  <<: *proxies-default
+  <<: *ZJ5kz
+- name: Korea 8_ZJ5kz
+  server: 61.255.174.163
+  <<: *proxies-default
+  <<: *ZJ5kz
+- name: Korea 9_ZJ5kz
+  server: 222.112.127.2
+  <<: *proxies-default
+  <<: *ZJ5kz
+- name: Korea 10_ZJ5kz
+  server: 121.170.203.151
+  <<: *proxies-default
+  <<: *ZJ5kz
 - name: Korea 1_2vFeA
-  server: 61.255.174.163
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *2vFeA
 - name: Korea 2_2vFeA
-  server: 121.170.203.151
+  server: 160.202.162.160
+  <<: *proxies-default
   <<: *2vFeA
 - name: Korea 3_2vFeA
-  server: 222.112.127.2
+  server: 103.212.222.251
+  <<: *proxies-default
   <<: *2vFeA
 - name: Korea 4_2vFeA
-  server: 61.255.174.139
+  server: 27.255.82.17
+  <<: *proxies-default
   <<: *2vFeA
 - name: Korea 5_2vFeA
-  server: 27.255.82.17
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *2vFeA
-
+- name: Korea 6_2vFeA
+  server: 211.54.63.1
+  <<: *proxies-default
+  <<: *2vFeA
+- name: Korea 7_2vFeA
+  server: 160.202.163.163
+  <<: *proxies-default
+  <<: *2vFeA
+- name: Korea 8_2vFeA
+  server: 61.255.174.163
+  <<: *proxies-default
+  <<: *2vFeA
+- name: Korea 9_2vFeA
+  server: 222.112.127.2
+  <<: *proxies-default
+  <<: *2vFeA
+- name: Korea 10_2vFeA
+  server: 121.170.203.151
+  <<: *proxies-default
+  <<: *2vFeA
 - name: Korea 1_nPmKX
-  server: 27.255.92.24
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *nPmKX
 - name: Korea 2_nPmKX
-  server: 221.168.46.2
+  server: 160.202.162.160
+  <<: *proxies-default
   <<: *nPmKX
 - name: Korea 3_nPmKX
-  server: 222.112.127.1
+  server: 103.212.222.251
+  <<: *proxies-default
   <<: *nPmKX
 - name: Korea 4_nPmKX
-  server: 61.255.174.164
+  server: 27.255.82.17
+  <<: *proxies-default
   <<: *nPmKX
 - name: Korea 5_nPmKX
-  server: 27.255.82.17
+  server: 61.255.174.139
+  <<: *proxies-default
   <<: *nPmKX
-
-- name: Korea 1_nPmKX
-  server: 160.202.163.163
+- name: Korea 6_nPmKX
+  server: 211.54.63.1
+  <<: *proxies-default
   <<: *nPmKX
-- name: Korea 2_nPmKX
-  server: 27.255.75.131
+- name: Korea 7_nPmKX
+  server: 160.202.163.163
+  <<: *proxies-default
   <<: *nPmKX
-- name: Korea 3_nPmKX
-  server: 27.255.79.138
+- name: Korea 8_nPmKX
+  server: 61.255.174.163
+  <<: *proxies-default
   <<: *nPmKX
-- name: Korea 4_nPmKX
-  server: 211.54.63.2
+- name: Korea 9_nPmKX
+  server: 222.112.127.2
+  <<: *proxies-default
   <<: *nPmKX
-- name: Korea 5_nPmKX
-  server: 160.202.162.161
+- name: Korea 10_nPmKX
+  server: 121.170.203.151
+  <<: *proxies-default
   <<: *nPmKX
-
-- name: Korea 1_n5VVV
-  server: 61.255.174.149
-  <<: *n5VVV
-- name: Korea 2_n5VVV
-  server: 61.255.174.137
-  <<: *n5VVV
-- name: Korea 3_n5VVV
-  server: 160.202.162.160
-  <<: *n5VVV
-- name: Korea 4_n5VVV
-  server: 211.54.63.2
-  <<: *n5VVV
-- name: Korea 5_n5VVV
-  server: 27.255.75.131
-  <<: *n5VVV
-
-- name: Korea 1_KSFPX
-  server: 61.255.174.149
-  <<: *KSFPX
-- name: Korea 2_KSFPX
-  server: 61.255.174.137
-  <<: *KSFPX
-- name: Korea 3_KSFPX
-  server: 160.202.162.160
-  <<: *KSFPX
-- name: Korea 4_KSFPX
-  server: 211.54.63.2
-  <<: *KSFPX
-- name: Korea 5_KSFPX
-  server: 27.255.75.131
-  <<: *KSFPX
 
 
 
@@ -228,27 +232,31 @@ proxy-groups:
   - Korea 3_ZJ5kz
   - Korea 4_ZJ5kz
   - Korea 5_ZJ5kz
+  - Korea 6_ZJ5kz
+  - Korea 7_ZJ5kz
+  - Korea 8_ZJ5kz
+  - Korea 9_ZJ5kz
+  - Korea 10_ZJ5kz
   - Korea 1_2vFeA
   - Korea 2_2vFeA
   - Korea 3_2vFeA
   - Korea 4_2vFeA
   - Korea 5_2vFeA
+  - Korea 6_2vFeA
+  - Korea 7_2vFeA
+  - Korea 8_2vFeA
+  - Korea 9_2vFeA
+  - Korea 10_2vFeA
   - Korea 1_nPmKX
   - Korea 2_nPmKX
   - Korea 3_nPmKX
   - Korea 4_nPmKX
   - Korea 5_nPmKX
-  - Korea 1_n5VVV
-  - Korea 2_n5VVV
-  - Korea 3_n5VVV
-  - Korea 4_n5VVV
-  - Korea 5_n5VVV
-  - Korea 1_KSFPX
-  - Korea 2_KSFPX
-  - Korea 3_KSFPX
-  - Korea 4_KSFPX
-  - Korea 5_KSFPX
-
+  - Korea 6_nPmKX
+  - Korea 7_nPmKX
+  - Korea 8_nPmKX
+  - Korea 9_nPmKX
+  - Korea 10_nPmKX
 
 
 - name: 🔰 VPN설정
@@ -10187,5 +10195,3 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🐟 漏网之鱼
-
-
