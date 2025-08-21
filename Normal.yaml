@@ -28,7 +28,7 @@ BatVPN: &BatVPN
 1ytnode: &1ytnode
   type: trojan
   server: ip0axvlbbsu02k7-kr.1ytnode.com
-  password: 27eb35b0-782d-4658-b1e7-c1cc30f64692
+  password: f7824d00-4b11-4574-a1b7-eebf6b695c73
   udp: true
   skip-cert-verify: true
 
@@ -10195,3 +10195,4 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🐟 漏网之鱼
+
