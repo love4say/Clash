@@ -74,10 +74,10 @@ KSFPX: &nPmKX
   
 proxies:
 - name: Korea 1_ZJ5kz
-  server: 160.202.162.162
+  server: 160.202.162.162
   <<: *ZJ5kz
 - name: Korea 2_ZJ5kz
-  server: 61.255.174.138
+  server: 61.255.174.138
   <<: *ZJ5kz
 - name: Korea 3_ZJ5kz
   server: 211.54.63.1
@@ -10187,4 +10187,5 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🐟 漏网之鱼
+
 
