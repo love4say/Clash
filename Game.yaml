@@ -1,19 +1,47 @@
 mixed-port: 7890
-allow-lan: true
-bind-address: '*'
-mode: global
+allow-lan: false
+bind-address: "*"
+mode: Global
 log-level: info
-external-controller: '127.0.0.1:9090'
+external-controller: ""
 dns:
-    enable: false
-    ipv6: true
-    default-nameserver: [223.5.5.5, 119.29.29.29, 8.8.8.8]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 168.126.63.1
+    - 168.126.63.2
+    - 164.124.101.2
+    - 203.248.252.2
+    - 219.250.36.130
+    - 210.220.163.82
+    - 8.8.8.8
+    - 8.8.4.4
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - "*"
+      - +.lan
+      - +.local
+      - time.*.com
+      - ntp.*.com
+      - +.market.xiaomi.com
+  use-system-hosts: false
+  proxy-server-nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  direct-nameserver: []
+  respect-rules: false
 
 BatVPN: &BatVPN
   type: ss  
@@ -208,6 +236,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
