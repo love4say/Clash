@@ -26,16 +26,12 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fake-ip-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - "*"
-      - +.lan
-      - +.local
-      - time.*.com
-      - ntp.*.com
-      - +.market.xiaomi.com
+    - "*"
+    - +.lan
+    - +.local
+    - time.*.com
+    - ntp.*.com
+    - +.market.xiaomi.com
   use-system-hosts: false
   proxy-server-nameserver:
     - https://120.53.53.53/dns-query
@@ -236,6 +232,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
