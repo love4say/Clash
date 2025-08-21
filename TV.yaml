@@ -1,7 +1,7 @@
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
-mode: rule
+mode: global
 log-level: info
 external-controller: '127.0.0.1:9090'
 dns:
@@ -197,6 +197,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
