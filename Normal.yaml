@@ -280,8 +280,6 @@ proxy-groups:
 
 
 - name: 🔰 VPN설정
-  type: select
-  proxies:
   type: fallback
   proxies:
   - KR PingPrime
@@ -10208,6 +10206,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🐟 漏网之鱼
+
 
 
 
