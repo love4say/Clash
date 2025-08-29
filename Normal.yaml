@@ -10204,7 +10204,8 @@ rules:
 - DOMAIN-SUFFIX,zzy1.quyaoya.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
-- MATCH,🐟 漏网之鱼
+- MATCH,🔰 VPN설정
+
 
 
 
