@@ -325,8 +325,17 @@ proxy-groups:
   proxies:
   - 🎥 넷플릭스
 rules:
-- PROCESS-NAME,Battle.net.exe,🎥 넷플릭스
-- PROCESS-NAME,Battle.net,🎥 넷플릭스
+- PROCESS-NAME,Battle.net.exe,🔰 VPN설정
+- PROCESS-NAME,Battle.net,🔰 VPN설정
+- PROCESS-NAME,HeroesOfTheStorm_x64.exe,🔰 VPN설정
+- PROCESS-NAME,HeroesOfTheStorm_x64,🔰 VPN설정
+- PROCESS-NAME,RobloxPlayerBeta.exe,🔰 VPN설정
+- PROCESS-NAME,RobloxPlayerBeta,🔰 VPN설정
+- PROCESS-NAME,RobloxCrashHandler,🔰 VPN설정
+- PROCESS-NAME,RobloxCrashHandler.exe,🔰 VPN설정
+- PROCESS-NAME,Heroes of the Storm.exe,🔰 VPN설정
+- PROCESS-NAME,Heroes of the Storm,🔰 VPN설정
+
 
 - PROCESS-NAME,weixin,DIRECT
 - PROCESS-NAME,weixin.exe,DIRECT
@@ -10210,6 +10219,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
