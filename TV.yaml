@@ -94,87 +94,51 @@ proxies:
 - name: Korea 3_ZJ5kz
   server: 61.255.174.149
   <<: *ZJ5kz
-- name: Korea 4_ZJ5kz
-  server: 61.255.174.137
-  <<: *ZJ5kz
-- name: Korea 5_ZJ5kz
-  server: 222.112.127.2
-  <<: *ZJ5kz
-- name: Korea 6_ZJ5kz
-  server: 211.54.63.2
-  <<: *ZJ5kz
-- name: Korea 7_ZJ5kz
-  server: 27.255.82.17
-  <<: *ZJ5kz
-- name: Korea 8_ZJ5kz
-  server: 61.255.174.163
-  <<: *ZJ5kz
-- name: Korea 9_ZJ5kz
-  server: 27.255.75.131
-  <<: *ZJ5kz
-- name: Korea 10_ZJ5kz
-  server: 103.212.222.251
-  <<: *ZJ5kz
-- name: Korea 1_2vFeA
-  server: 121.170.203.151
-  <<: *2vFeA
-- name: Korea 2_2vFeA
-  server: 160.202.162.160
-  <<: *2vFeA
-- name: Korea 3_2vFeA
-  server: 61.255.174.149
-  <<: *2vFeA
-- name: Korea 4_2vFeA
+- name: Korea 4
   server: 61.255.174.137
   <<: *2vFeA
-- name: Korea 5_2vFeA
-  server: 222.112.127.2
+- name: Korea 5
+server: 222.112.127.2
   <<: *2vFeA
-- name: Korea 6_2vFeA
+- name: Korea 6
   server: 211.54.63.2
   <<: *2vFeA
-- name: Korea 7_2vFeA
-  server: 27.255.82.17
-  <<: *2vFeA
-- name: Korea 8_2vFeA
-  server: 61.255.174.163
-  <<: *2vFeA
-- name: Korea 9_2vFeA
-  server: 27.255.75.131
-  <<: *2vFeA
-- name: Korea 10_2vFeA
-  server: 103.212.222.251
-  <<: *2vFeA
-- name: Korea 1_nPmKX
-  server: 121.170.203.151
-  <<: *nPmKX
-- name: Korea 2_nPmKX
-  server: 160.202.162.160
-  <<: *nPmKX
-- name: Korea 3_nPmKX
-  server: 61.255.174.149
-  <<: *nPmKX
-- name: Korea 4_nPmKX
-  server: 61.255.174.137
-  <<: *nPmKX
-- name: Korea 5_nPmKX
-  server: 222.112.127.2
-  <<: *nPmKX
-- name: Korea 6_nPmKX
-  server: 211.54.63.2
-  <<: *nPmKX
-- name: Korea 7_nPmKX
+- name: Korea 7
   server: 27.255.82.17
   <<: *nPmKX
-- name: Korea 8_nPmKX
+- name: Korea 8
   server: 61.255.174.163
   <<: *nPmKX
-- name: Korea 9_nPmKX
+- name: Korea 9
   server: 27.255.75.131
   <<: *nPmKX
-- name: Korea 10_nPmKX
+- name: Korea 10
   server: 103.212.222.251
   <<: *nPmKX
+- name: Korea 11
+  server: kr01.neobgp.xyz
+  port: 53031
+  <<: *Test
+- name: Korea 12
+  server: kr02.neobgp.xyz
+  port: 53032
+  <<: *Test
+- name: Korea 13
+  server: kr03.neobgp.xyz
+  port: 53033
+  <<: *Test
+- name: Korea 14
+  server: kr04.neobgp.xyz
+  port: 53034
+  <<: *Test
+- name: Korea 15
+  server: kr05.neobgp.xyz
+  port: 53035
+  <<: *Test
+- name: Korea 16
+  server: kr06.neobgp.xyz
+  port: 53036
+  <<: *Test
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -202,41 +166,4 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
-
-
-- name: Test_KR1
-  server: kr01.neobgp.xyz
-  port: 53031
-  <<: *Test
-- name: Test_KR2
-  server: kr02.neobgp.xyz
-  port: 53032
-  <<: *Test
-- name: Test_KR3
-  server: kr03.neobgp.xyz
-  port: 53033
-  <<: *Test
-- name: Test_KR4
-  server: kr04.neobgp.xyz
-  port: 53034
-  <<: *Test
-- name: Test_KR5
-  server: kr05.neobgp.xyz
-  port: 53035
-  <<: *Test
-- name: Test_KR6
-  server: kr06.neobgp.xyz
-  port: 53036
-  <<: *Test
-
-
-
-
-
-
-
-
-
-
-
 
