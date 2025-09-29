@@ -62,8 +62,8 @@ proxies-default: &proxies-default
   url: https://games.roblox.com
 
 ZJ5kz: &ZJ5kz
-  port: 43360
-  password: UPYbpR
+  port: 29494
+  password: MBqBrq
 
 2vFeA: &2vFeA
   port: 64739
@@ -232,6 +232,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
