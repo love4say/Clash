@@ -38,136 +38,85 @@ dns:
     - https://223.5.5.5/dns-query
   direct-nameserver: []
   respect-rules: false
-proxies-default: &proxies-default
-  type: ssr
-  port: 45270
-  cipher: aes-256-ctr
-  password: iUgcRF
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  skip-cert-verify: true
-
 BatVPN: &BatVPN
   type: ss  
   cipher: aes-256-gcm
-  password: nSwbqBHG
+  password: ac7b97ea
   udp: true
 
-1ytnode: &1ytnode
-  type: trojan
-  server: ip0axvlbbsu02k7-kr.1ytnode.com
-  password: f7824d00-4b11-4574-a1b7-eebf6b695c73
-  udp: true
-  skip-cert-verify: true
+ZJ5kz: &ZJ5kz
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  port: 51320
+  password: PBxgui
+
+2vFeA: &2vFeA
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  port: 30317
+  password: nA7AKm
+
+nPmKX: &nPmKX
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  port: 29494
+  password: MBqBrq
+
 
 proxies:
-
-- name: KR PingPrime
-  type: hysteria2
-  server: love4say.duckdns.org
-  port: 21109
-  password: love4say_1004ksy
-  alpn:
-  - h3
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: KR PingPrime2
-  type: ss
-  server: love4say.duckdns.org
-  port: 21132
-  cipher: aes-256-gcm
-  password: love4say_1004ksy
-  udp: true
-  
-
-- name: KR BatVPN_1
-  server: bja.lightssocks.com
-  port: 33342
-  <<: *BatVPN
-- name: KR BatVPN_2
-  server: gdb.lightssocks.com
-  port: 33338
-  <<: *BatVPN
-
-
-- name: KR_유료1
-  port: 56361
-  <<: *1ytnode
-- name: KR_유료2
-  port: 56362
-  <<: *1ytnode
-- name: KR_유료3
-  port: 56363
-  <<: *1ytnode
-
-- name: SK5
-  server: 61.255.174.163
-  <<: *proxies-default
-- name: KT10
-  server: 27.255.92.24
-  <<: *proxies-default
-- name: KT 11
-  server: 27.255.79.138
-  <<: *proxies-default
-- name: Korea 2
-  server: 221.168.46.1
-  <<: *proxies-default
-- name: KT 01
-  server: 160.202.163.35
-  <<: *proxies-default
-- name: KT 04
-  server: 27.255.75.131
-  <<: *proxies-default
-- name: KT 07
-  server: 160.202.162.162
-  <<: *proxies-default
-- name: Korea 3
-  server: 222.112.127.1
-  <<: *proxies-default
-- name: KT 02
-  server: 160.202.163.163
-  <<: *proxies-default
-- name: Korea 4
-  server: 211.54.63.2
-  <<: *proxies-default
-- name: Korea 6
-  server: 222.112.127.2
-  <<: *proxies-default
-- name: LG 1
-  server: 27.255.82.17
-  <<: *proxies-default
-- name: KT 03
-  server: 160.202.162.160
-  <<: *proxies-default
-- name: Youtube Premium
+- name: CN 1_1
   server: 121.170.203.151
-  <<: *proxies-default
-- name: KT 06
-  server: 160.202.162.161
-  <<: *proxies-default
-- name: SK1
-  server: 61.255.174.137
-  <<: *proxies-default
-- name: Korea 1
-  server: 211.54.63.1
-  <<: *proxies-default
-- name: Korea 5
-  server: 221.168.46.2
-  <<: *proxies-default
-- name: KT 05
-  server: 103.212.222.251
-  <<: *proxies-default
-- name: SK4
+  <<: *ZJ5kz
+- name: CN 1_2
+  server: 160.202.162.160
+  <<: *ZJ5kz
+- name: CN 2_1
   server: 61.255.174.149
-  <<: *proxies-default
-- name: SK2
-  server: 61.255.174.138
-  <<: *proxies-default
-- name: SK3
-  server: 61.255.174.139
-  <<: *proxies-default
-- name: SK6
-  server: 61.255.174.164
-  <<: *proxies-default
+  <<: *2vFeA
+- name: CN 2_2
+  server: 61.255.174.137
+  <<: *2vFeA
+- name: CN 3_1
+  server: 222.112.127.2
+  <<: *nPmKX
+- name: CN 3_2
+  server: 222.112.127.2
+  <<: *nPmKX
+
+- name: TW BatVPN_1
+  server: sha.lightssocks.com
+  port: 33335
+  <<: *BatVPN
+- name: TW BatVPN_2
+  server: gdb.lightssocks.com
+  port: 33340
+  <<: *BatVPN
+- name: HK BatVPN_1
+  server: gda.lightssocks.com
+  port: 33341
+  <<: *BatVPN
+- name: HK BatVPN_2
+  server: sha.lightssocks.com
+  port: 33336
+  <<: *BatVPN
+- name: HK BatVPN_3
+  server: fja.lightssocks.com
+  port: 33332
+  <<: *BatVPN
+
+
+
+
+
+
+
+
+
+
 
