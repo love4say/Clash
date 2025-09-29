@@ -73,7 +73,7 @@ nPmKX: &nPmKX
 
 proxies:
 - name: Korea 1_ZJ5kz
-  server: 121.170.203.151
+  server: 61.255.174.139 
   <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 2_ZJ5kz
@@ -113,7 +113,7 @@ proxies:
   <<: *proxies-default
   <<: *ZJ5kz
 - name: Korea 1_2vFeA
-  server: 121.170.203.151
+  server: 61.255.174.139 
   <<: *proxies-default
   <<: *2vFeA
 - name: Korea 2_2vFeA
@@ -153,7 +153,7 @@ proxies:
   <<: *proxies-default
   <<: *2vFeA
 - name: Korea 1_nPmKX
-  server: 121.170.203.151
+  server: 61.255.174.139 
   <<: *proxies-default
   <<: *nPmKX
 - name: Korea 2_nPmKX
@@ -10234,6 +10234,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
