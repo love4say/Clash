@@ -57,16 +57,16 @@ ZJ5kz: &ZJ5kz
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  port: 43360
-  password: UPYbpR
+  port: 29494
+  password: MBqBrq
 
 2vFeA: &2vFeA
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  port: 64739
-  password: jZvgD2
+  port: 45270
+  password: iUgcRF
 
 nPmKX: &nPmKX
   type: ssr
@@ -221,6 +221,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
