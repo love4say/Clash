@@ -46,7 +46,7 @@ BatVPN: &BatVPN
 
 1ytnode: &1ytnode
   type: trojan
-  server: ip0axvlbbsu02k7-kr.1ytnode.com
+  server: s19fvirxvk2nyss.1ytnode.com
   password: f7824d00-4b11-4574-a1b7-eebf6b695c73
   udp: true
   skip-cert-verify: true
@@ -221,6 +221,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
