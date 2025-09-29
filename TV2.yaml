@@ -71,22 +71,22 @@ nPmKX: &nPmKX
 
 proxies:
 - name: CN 1_1
-  server: 121.170.203.151
+  server: 61.97.249.156
   <<: *ZJ5kz
 - name: CN 1_2
-  server: 160.202.162.160
+  server: 61.97.249.14
   <<: *ZJ5kz
 - name: CN 2_1
-  server: 61.255.174.149
+  server: 61.97.249.156
   <<: *2vFeA
 - name: CN 2_2
-  server: 61.255.174.137
+  server: 61.97.249.14
   <<: *2vFeA
 - name: CN 3_1
-  server: 222.112.127.2
+  server: 61.97.249.156
   <<: *nPmKX
 - name: CN 3_2
-  server: 222.112.127.2
+  server: 61.97.249.14
   <<: *nPmKX
 
 - name: TW BatVPN_1
