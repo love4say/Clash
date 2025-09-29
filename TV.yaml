@@ -41,7 +41,7 @@ dns:
 BatVPN: &BatVPN
   type: ss  
   cipher: aes-256-gcm
-  password: nSwbqBHG
+  password: ac7b97ea
   udp: true
 
 1ytnode: &1ytnode
@@ -221,6 +221,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
