@@ -39,10 +39,16 @@ dns:
   direct-nameserver: []
   respect-rules: false
 
-BatVPN: &BatVPN
+Test: &Test
   type: ss  
   cipher: aes-256-gcm
   password: ac7b97ea
+  udp: true
+  
+BatVPN: &BatVPN
+  type: ss  
+  cipher: aes-256-gcm
+  password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
   udp: true
 
 1ytnode: &1ytnode
@@ -232,6 +238,31 @@ proxies:
   port: 56363
   <<: *1ytnode
 
+- name: Test_KR1
+  server: kr01.neobgp.xyz
+  port: 53031
+  <<: *Test
+- name: Test_KR2
+  server: kr02.neobgp.xyz
+  port: 53032
+  <<: *Test
+- name: Test_KR3
+  server: kr03.neobgp.xyz
+  port: 53033
+  <<: *Test
+- name: Test_KR4
+  server: kr04.neobgp.xyz
+  port: 53034
+  <<: *Test
+- name: Test_KR5
+  server: kr05.neobgp.xyz
+  port: 53035
+  <<: *Test
+- name: Test_KR6
+  server: kr06.neobgp.xyz
+  port: 53036
+  <<: *Test
+
 
 
 proxy-groups:
@@ -246,6 +277,12 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
+  - Test_KR1
+  - Test_KR2
+  - Test_KR3
+  - Test_KR4
+  - Test_KR5
+  - Test_KR6
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎥 넷플릭스
@@ -260,6 +297,12 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
+  - Test_KR1
+  - Test_KR2
+  - Test_KR3
+  - Test_KR4
+  - Test_KR5
+  - Test_KR6
   - Korea 1_ZJ5kz
   - Korea 2_ZJ5kz
   - Korea 3_ZJ5kz
@@ -10234,6 +10277,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
