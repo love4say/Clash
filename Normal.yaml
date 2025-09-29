@@ -41,7 +41,7 @@ dns:
 
 Test: &Test
   type: ss  
-  cipher: aes-256-gcm
+  cipher: aes-128-gcm
   password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
   udp: true
   
@@ -10277,6 +10277,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
