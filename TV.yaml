@@ -85,13 +85,13 @@ nPmKX: &nPmKX
 
 
 proxies:
-- name: Korea 1_ZJ5kz
+- name: Korea 1
   server: 121.170.203.151
   <<: *ZJ5kz
-- name: Korea 2_ZJ5kz
+- name: Korea 2
   server: 160.202.162.160
   <<: *ZJ5kz
-- name: Korea 3_ZJ5kz
+- name: Korea 3
   server: 61.255.174.149
   <<: *ZJ5kz
 - name: Korea 4
@@ -166,5 +166,6 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
