@@ -98,7 +98,7 @@ proxies:
   server: 61.255.174.137
   <<: *2vFeA
 - name: Korea 5
-server: 222.112.127.2
+  server: 222.112.127.2
   <<: *2vFeA
 - name: Korea 6
   server: 211.54.63.2
@@ -166,4 +166,5 @@ server: 222.112.127.2
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
