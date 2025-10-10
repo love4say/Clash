@@ -1,0 +1,336 @@
+
+proxies:
+  - name: Korea 1_ZJ5kz
+    server: 61.255.174.139
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 2_ZJ5kz
+    server: 160.202.162.160
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 3_ZJ5kz
+    server: 61.255.174.149
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 4_ZJ5kz
+    server: 61.255.174.137
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 5_ZJ5kz
+    server: 222.112.127.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 6_ZJ5kz
+    server: 211.54.63.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 7_ZJ5kz
+    server: 27.255.82.17
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 8_ZJ5kz
+    server: 61.255.174.163
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 9_ZJ5kz
+    server: 27.255.75.131
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 10_ZJ5kz
+    server: 103.212.222.251
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 29494
+    password: MBqBrq
+  - name: Korea 1_2vFeA
+    server: 61.255.174.139
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 2_2vFeA
+    server: 160.202.162.160
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 3_2vFeA
+    server: 61.255.174.149
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 4_2vFeA
+    server: 61.255.174.137
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 5_2vFeA
+    server: 222.112.127.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 6_2vFeA
+    server: 211.54.63.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 7_2vFeA
+    server: 27.255.82.17
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 8_2vFeA
+    server: 61.255.174.163
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 9_2vFeA
+    server: 27.255.75.131
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 10_2vFeA
+    server: 103.212.222.251
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Korea 1_nPmKX
+    server: 61.255.174.139
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 2_nPmKX
+    server: 160.202.162.160
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 3_nPmKX
+    server: 61.255.174.149
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 4_nPmKX
+    server: 61.255.174.137
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 5_nPmKX
+    server: 222.112.127.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 6_nPmKX
+    server: 211.54.63.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 7_nPmKX
+    server: 27.255.82.17
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 8_nPmKX
+    server: 61.255.174.163
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 9_nPmKX
+    server: 27.255.75.131
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: Korea 10_nPmKX
+    server: 103.212.222.251
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 45270
+    password: iUgcRF
+  - name: KR BatVPN_1
+    server: bja.lightssocks.com
+    port: 33342
+    type: ss
+    cipher: aes-256-gcm
+    password: ac7b97ea
+    udp: true
+  - name: KR BatVPN_2
+    server: gdb.lightssocks.com
+    port: 33338
+    type: ss
+    cipher: aes-256-gcm
+    password: ac7b97ea
+    udp: true
+  - name: KR PingPrime
+    type: hysteria2
+    server: love4say.duckdns.org
+    port: 21109
+    password: love4say_1004ksy
+    alpn:
+      - h3
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: KR PingPrime2
+    type: ss
+    server: love4say.duckdns.org
+    port: 21132
+    cipher: aes-256-gcm
+    password: love4say_1004ksy
+    udp: true
+  - name: KR_유료1
+    port: 56361
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: KR_유료2
+    port: 56362
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: KR_유료3
+    port: 56363
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: Test_KR1
+    server: kr01.neobgp.xyz
+    port: 53031
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Test_KR2
+    server: kr02.neobgp.xyz
+    port: 53032
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Test_KR3
+    server: kr03.neobgp.xyz
+    port: 53033
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Test_KR4
+    server: kr04.neobgp.xyz
+    port: 53034
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Test_KR5
+    server: kr05.neobgp.xyz
+    port: 53035
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Test_KR6
+    server: kr06.neobgp.xyz
+    port: 53036
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
