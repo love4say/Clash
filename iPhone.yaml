@@ -80,7 +80,7 @@ proxies:
     protocol: auth_aes128_md5
     port: 45270
     password: iUgcRF
-   - name: KR BatVPN_1
+  - name: KR BatVPN_1
     server: bja.lightssocks.com
     port: 33342
     type: ss
