@@ -101,7 +101,7 @@ proxies:
     password: love4say_1004ksy
     udp: true
   - name: PingPrime_anytls
-    type: anytls
+    type: ss
     server: love4say.duckdns.org
     port: 21301
     password: love4say_1004ksy
