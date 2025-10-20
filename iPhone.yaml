@@ -99,6 +99,10 @@ proxies:
     server: love4say.duckdns.org
     port: 21109
     password: love4say_1004ksy
+    alpn:
+      - h3
+    tls: true
+    skip-cert-verify: true
     udp: true
   - name: PingPrime_SS
     type: ss
