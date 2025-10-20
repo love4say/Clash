@@ -109,6 +109,13 @@ proxies:
     cipher: aes-256-gcm
     password: love4say_1004ksy
     udp: true
+  - name: KR PingPrime3
+    type: anytls
+    server: love4say.duckdns.org
+    port: 21301
+    cipher: aes-256-gcm
+    password: love4say_1004ksy
+    udp: true
   - name: KR_유료1
     port: 56361
     type: trojan
