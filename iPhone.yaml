@@ -94,8 +94,8 @@ proxies:
     cipher: aes-256-gcm
     password: ac7b97ea
     udp: true
-  - name: KR PingPrime
-    type: hysteria2
+  - name: KR PingPrime_Hysteria2
+    type: ss
     server: love4say.duckdns.org
     port: 21109
     password: love4say_1004ksy
@@ -106,8 +106,8 @@ proxies:
     port: 21132
     password: love4say_1004ksy
     udp: true
-  - name: KR PingPrime3
-    type: anytls
+  - name: KR PingPrime_anytls
+    type: ss
     server: love4say.duckdns.org
     port: 21301
     password: love4say_1004ksy
