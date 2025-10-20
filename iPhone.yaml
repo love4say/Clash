@@ -99,21 +99,17 @@ proxies:
     server: love4say.duckdns.org
     port: 21109
     password: love4say_1004ksy
-    tls: true
-    skip-cert-verify: true
     udp: true
   - name: KR PingPrime2
     type: ss
     server: love4say.duckdns.org
     port: 21132
-    cipher: aes-256-gcm
     password: love4say_1004ksy
     udp: true
   - name: KR PingPrime3
     type: anytls
     server: love4say.duckdns.org
     port: 21301
-    cipher: aes-256-gcm
     password: love4say_1004ksy
     udp: true
   - name: KR_유료1
