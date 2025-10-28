@@ -350,8 +350,6 @@ proxy-groups:
   - Test_KR4
   - Test_KR5
   - Test_KR6
-  url: http://www.gstatic.com/generate_204
-  interval: 300
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -10298,6 +10296,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
