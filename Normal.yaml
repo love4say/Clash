@@ -267,6 +267,25 @@ proxies:
 
 proxy-groups:
 - name: 🔰 VPN설정
+  type: select
+  proxies:
+  - 자동 설정
+  - KR PingPrime
+  - KR PingPrime2
+  - KR_유료1
+  - KR_유료2
+  - KR_유료3
+  - KR BatVPN_1
+  - KR BatVPN_2
+  - Test_KR1
+  - Test_KR2
+  - Test_KR3
+  - Test_KR4
+  - Test_KR5
+  - Test_KR6
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: 자동 설정
   type: load-balance
   strategy: consistent-hashing
   proxies:
@@ -10279,6 +10298,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
