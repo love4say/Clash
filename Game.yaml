@@ -78,6 +78,8 @@ nPmKX: &nPmKX
 
 
 proxies:
+url: http://www.gstatic.com/generate_204
+interval: 300
 - name: Korea 1
   server: 121.170.203.151
   type: ssr
@@ -200,6 +202,7 @@ proxies:
   server: kr06.neobgp.xyz
   port: 53036
   <<: *Test
+
 
 
 
