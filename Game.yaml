@@ -256,3 +256,6 @@ proxy-groups:
   - Test_KR4
   - Test_KR5
   - Test_KR6
+
+rules:
+  - MATCH, 🔰 VPN설정
