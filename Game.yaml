@@ -38,6 +38,9 @@ dns:
     - https://223.5.5.5/dns-query
   direct-nameserver: []
   respect-rules: false
+cfw-latency-timeout: 10000
+cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-conn-break-strategy: true
 
 Test: &Test
   type: ss  
@@ -78,7 +81,6 @@ nPmKX: &nPmKX
 
 
 proxies:
-url: http://www.gstatic.com/generate_204
 - name: Korea 1
   server: 121.170.203.151
   type: ssr
@@ -201,6 +203,7 @@ url: http://www.gstatic.com/generate_204
   server: kr06.neobgp.xyz
   port: 53036
   <<: *Test
+
 
 
 
