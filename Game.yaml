@@ -50,7 +50,6 @@ BatVPN: &BatVPN
   cipher: aes-256-gcm
   password: ac7b97ea
   udp: true
-  url: https://games.roblox.com
   
 1ytnode: &1ytnode
   type: trojan
@@ -58,14 +57,12 @@ BatVPN: &BatVPN
   password: f7824d00-4b11-4574-a1b7-eebf6b695c73
   udp: true
   skip-cert-verify: true
-  url: https://games.roblox.com
   
 proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  url: https://games.roblox.com
 
 ZJ5kz: &ZJ5kz
   port: 29494
@@ -203,6 +200,7 @@ proxies:
   server: kr06.neobgp.xyz
   port: 53036
   <<: *Test
+
 
 
 
