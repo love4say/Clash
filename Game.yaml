@@ -132,7 +132,7 @@ proxies:
   <<: *nPmKX
 - name: Korea 8
   server: 61.255.174.163
-   type: ssr
+  type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
@@ -203,6 +203,7 @@ proxies:
   server: kr06.neobgp.xyz
   port: 53036
   <<: *Test
+
 
 
 
