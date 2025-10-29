@@ -1,7 +1,7 @@
 mixed-port: 7890
 allow-lan: false
 bind-address: "*"
-mode: global
+mode: Rule
 log-level: info
 external-controller: ""
 dns:
@@ -204,3 +204,55 @@ proxies:
   port: 53036
   <<: *Test
 
+
+proxy-groups:
+- name: 🔰 VPN설정
+  type: select
+  proxies:
+  - 자동 설정
+  - Korea 1
+  - Korea 2
+  - Korea 3
+  - Korea 4
+  - Korea 5
+  - Korea 6
+  - Korea 7
+  - Korea 8
+  - Korea 9
+  - Korea 10
+  - KR BatVPN_1
+  - KR BatVPN_2
+  - KR PingPrime
+  - KR PingPrime2
+  - Test_KR1
+  - Test_KR2
+  - Test_KR3
+  - Test_KR4
+  - Test_KR5
+  - Test_KR6
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+- name: 자동 설정
+  type: load-balance
+  strategy: consistent-hashing
+  proxies:
+  - Korea 1
+  - Korea 2
+  - Korea 3
+  - Korea 4
+  - Korea 5
+  - Korea 6
+  - Korea 7
+  - Korea 8
+  - Korea 9
+  - Korea 10
+  - KR BatVPN_1
+  - KR BatVPN_2
+  - KR PingPrime
+  - KR PingPrime2
+  - Test_KR1
+  - Test_KR2
+  - Test_KR3
+  - Test_KR4
+  - Test_KR5
+  - Test_KR6
