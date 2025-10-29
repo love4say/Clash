@@ -80,123 +80,213 @@ nPmKX: &nPmKX
 proxies:
 - name: Korea 1_ZJ5kz
   server: 61.255.174.139 
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 2_ZJ5kz
   server: 160.202.162.160
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 3_ZJ5kz
   server: 61.255.174.149
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 4_ZJ5kz
   server: 61.255.174.137
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 5_ZJ5kz
   server: 222.112.127.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 6_ZJ5kz
   server: 211.54.63.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 7_ZJ5kz
   server: 27.255.82.17
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 8_ZJ5kz
   server: 61.255.174.163
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 9_ZJ5kz
   server: 27.255.75.131
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 10_ZJ5kz
   server: 103.212.222.251
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *ZJ5kz
 - name: Korea 1_2vFeA
   server: 61.255.174.139 
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 2_2vFeA
   server: 160.202.162.160
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 3_2vFeA
   server: 61.255.174.149
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 4_2vFeA
   server: 61.255.174.137
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 5_2vFeA
   server: 222.112.127.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 6_2vFeA
   server: 211.54.63.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 7_2vFeA
   server: 27.255.82.17
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 8_2vFeA
   server: 61.255.174.163
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 9_2vFeA
   server: 27.255.75.131
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 10_2vFeA
   server: 103.212.222.251
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *2vFeA
 - name: Korea 1_nPmKX
   server: 61.255.174.139 
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 2_nPmKX
   server: 160.202.162.160
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 3_nPmKX
   server: 61.255.174.149
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 4_nPmKX
   server: 61.255.174.137
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 5_nPmKX
   server: 222.112.127.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 6_nPmKX
   server: 211.54.63.2
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 7_nPmKX
   server: 27.255.82.17
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 8_nPmKX
   server: 61.255.174.163
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 9_nPmKX
   server: 27.255.75.131
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Korea 10_nPmKX
   server: 103.212.222.251
-  <<: *proxies-default
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
   <<: *nPmKX
 
 
@@ -10296,3 +10386,4 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
