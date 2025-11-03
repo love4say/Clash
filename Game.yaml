@@ -195,14 +195,6 @@ proxies:
   server: kr04.neobgp.xyz
   port: 53034
   <<: *Test
-- name: Test_KR5
-  server: kr05.neobgp.xyz
-  port: 53035
-  <<: *Test
-- name: Test_KR6
-  server: kr06.neobgp.xyz
-  port: 53036
-  <<: *Test
 
 
 proxy-groups:
@@ -228,8 +220,6 @@ proxy-groups:
   - Test_KR2
   - Test_KR3
   - Test_KR4
-  - Test_KR5
-  - Test_KR6
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 자동 설정
@@ -254,8 +244,7 @@ proxy-groups:
   - Test_KR2
   - Test_KR3
   - Test_KR4
-  - Test_KR5
-  - Test_KR6
 
 rules:
   - MATCH, 🔰 VPN설정
+
