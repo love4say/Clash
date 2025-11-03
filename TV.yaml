@@ -131,14 +131,6 @@ proxies:
   server: kr04.neobgp.xyz
   port: 53034
   <<: *Test
-- name: Korea 15
-  server: kr05.neobgp.xyz
-  port: 53035
-  <<: *Test
-- name: Korea 16
-  server: kr06.neobgp.xyz
-  port: 53036
-  <<: *Test
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -166,6 +158,7 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
 
 
 
