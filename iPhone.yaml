@@ -155,17 +155,3 @@ proxies:
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
-  - name: Test_KR5
-    server: kr05.neobgp.xyz
-    port: 53035
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
-  - name: Test_KR6
-    server: kr06.neobgp.xyz
-    port: 53036
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
