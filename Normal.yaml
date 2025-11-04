@@ -64,231 +64,97 @@ proxies-default: &proxies-default
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-ZJ5kz: &ZJ5kz
-  port: 29494
-  password: MBqBrq
-
-2vFeA: &2vFeA
-  port: 30317
-  password: nA7AKm
-
 nPmKX: &nPmKX
   port: 45270
   password: iUgcRF
 
+KSFPX: &KSFPX
+  port: 29494
+  password: MBqBrq
+
+uvjP4: &uvjP4
+  port: 30317
+  password: nA7AKm
+
+ZXSpb: &ZXSpb
+  port: 51320
+  password: PBxgui
+
+BEm5m: &BEm5m
+  port: 54239
+  password: KcjPPR
 
 proxies:
-- name: Korea 1_ZJ5kz
-  server: 61.255.174.139 
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 2_ZJ5kz
-  server: 160.202.162.160
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 3_ZJ5kz
-  server: 61.255.174.149
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 4_ZJ5kz
-  server: 61.255.174.137
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 5_ZJ5kz
-  server: 222.112.127.2
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 6_ZJ5kz
-  server: 211.54.63.2
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 7_ZJ5kz
-  server: 27.255.82.17
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 8_ZJ5kz
-  server: 61.255.174.163
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 9_ZJ5kz
-  server: 27.255.75.131
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 10_ZJ5kz
-  server: 103.212.222.251
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 1_2vFeA
-  server: 61.255.174.139 
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 2_2vFeA
-  server: 160.202.162.160
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 3_2vFeA
-  server: 61.255.174.149
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 4_2vFeA
-  server: 61.255.174.137
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 5_2vFeA
-  server: 222.112.127.2
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 6_2vFeA
-  server: 211.54.63.2
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 7_2vFeA
-  server: 27.255.82.17
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 8_2vFeA
-  server: 61.255.174.163
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 9_2vFeA
-  server: 27.255.75.131
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 10_2vFeA
-  server: 103.212.222.251
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 1_nPmKX
+- name: Panda_1
   server: 61.255.174.139 
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *nPmKX
-- name: Korea 2_nPmKX
+- name: Panda_2
   server: 160.202.162.160
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *nPmKX
-- name: Korea 3_nPmKX
+- name: Panda_3
   server: 61.255.174.149
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 4_nPmKX
+  <<: *KSFPX
+- name: Panda_4
   server: 61.255.174.137
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 5_nPmKX
+  <<: *KSFPX
+- name: Panda_5
   server: 222.112.127.2
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 6_nPmKX
+  <<: *uvjP4
+- name: Panda_6
   server: 211.54.63.2
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 7_nPmKX
+  <<: *uvjP4
+- name: Panda_7
   server: 27.255.82.17
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 8_nPmKX
+  <<: *ZXSpb
+- name: Panda_8
   server: 61.255.174.163
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 9_nPmKX
+  <<: *ZXSpb
+- name: Panda_9
   server: 27.255.75.131
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 10_nPmKX
+  <<: *BEm5m
+- name: Panda_10
   server: 103.212.222.251
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-
+  <<: *BEm5m
 
 
 - name: KR BatVPN_1
@@ -328,19 +194,19 @@ proxies:
   port: 56363
   <<: *1ytnode
 
-- name: Test_KR1
+- name: Neo_KR1
   server: kr01.neobgp.xyz
   port: 53031
   <<: *Test
-- name: Test_KR2
+- name: Neo_KR2
   server: kr02.neobgp.xyz
   port: 53032
   <<: *Test
-- name: Test_KR3
+- name: Neo_KR3
   server: kr03.neobgp.xyz
   port: 53033
   <<: *Test
-- name: Test_KR4
+- name: Neo_KR4
   server: kr04.neobgp.xyz
   port: 53034
   <<: *Test
@@ -10373,5 +10239,6 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
