@@ -39,7 +39,7 @@ dns:
   direct-nameserver: []
   respect-rules: false
 
-Test: &Test
+Neo: &Neo
   type: ss  
   cipher: aes-128-gcm
   password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
@@ -197,19 +197,19 @@ proxies:
 - name: Neo_KR1
   server: kr01.neobgp.xyz
   port: 53031
-  <<: *Test
+  <<: *Neo
 - name: Neo_KR2
   server: kr02.neobgp.xyz
   port: 53032
-  <<: *Test
+  <<: *Neo
 - name: Neo_KR3
   server: kr03.neobgp.xyz
   port: 53033
-  <<: *Test
+  <<: *Neo
 - name: Neo_KR4
   server: kr04.neobgp.xyz
   port: 53034
-  <<: *Test
+  <<: *Neo
 
 
 
@@ -225,11 +225,10 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - Test_KR1
-  - Test_KR2
-  - Test_KR3
-  - Test_KR4
-
+  - Neo_KR1
+  - Neo_KR2
+  - Neo_KR3
+  - Neo_KR4
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎥 넷플릭스
@@ -244,40 +243,20 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - Test_KR1
-  - Test_KR2
-  - Test_KR3
-  - Test_KR4
-  - Korea 1_ZJ5kz
-  - Korea 2_ZJ5kz
-  - Korea 3_ZJ5kz
-  - Korea 4_ZJ5kz
-  - Korea 5_ZJ5kz
-  - Korea 6_ZJ5kz
-  - Korea 7_ZJ5kz
-  - Korea 8_ZJ5kz
-  - Korea 9_ZJ5kz
-  - Korea 10_ZJ5kz
-  - Korea 1_2vFeA
-  - Korea 2_2vFeA
-  - Korea 3_2vFeA
-  - Korea 4_2vFeA
-  - Korea 5_2vFeA
-  - Korea 6_2vFeA
-  - Korea 7_2vFeA
-  - Korea 8_2vFeA
-  - Korea 9_2vFeA
-  - Korea 10_2vFeA
-  - Korea 1_nPmKX
-  - Korea 2_nPmKX
-  - Korea 3_nPmKX
-  - Korea 4_nPmKX
-  - Korea 5_nPmKX
-  - Korea 6_nPmKX
-  - Korea 7_nPmKX
-  - Korea 8_nPmKX
-  - Korea 9_nPmKX
-  - Korea 10_nPmKX
+  - Neo_KR1
+  - Neo_KR2
+  - Neo_KR3
+  - Neo_KR4
+  - Panda_1
+  - Panda_2
+  - Panda_3
+  - Panda_4
+  - Panda_5
+  - Panda_6
+  - Panda_7
+  - Panda_8
+  - Panda_9
+  - Panda_10
 - name: 자동 설정
   type: load-balance
   strategy: consistent-hashing
@@ -289,10 +268,10 @@ proxy-groups:
   - KR_유료3
   - KR BatVPN_1
   - KR BatVPN_2
-  - Test_KR1
-  - Test_KR2
-  - Test_KR3
-  - Test_KR4
+  - Neo_KR1
+  - Neo_KR2
+  - Neo_KR3
+  - Neo_KR4
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -10239,6 +10218,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
