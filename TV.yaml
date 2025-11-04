@@ -39,12 +39,12 @@ dns:
   direct-nameserver: []
   respect-rules: false
 
-Test: &Test
+Neo: &Neo
   type: ss  
   cipher: aes-128-gcm
   password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
   udp: true
-
+  
 BatVPN: &BatVPN
   type: ss  
   cipher: aes-256-gcm
@@ -58,79 +58,104 @@ BatVPN: &BatVPN
   udp: true
   skip-cert-verify: true
 
-
-ZJ5kz: &ZJ5kz
+proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  port: 29494
-  password: MBqBrq
-
-2vFeA: &2vFeA
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  port: 30317
-  password: nA7AKm
 
 nPmKX: &nPmKX
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
   port: 45270
   password: iUgcRF
 
+KSFPX: &KSFPX
+  port: 29494
+  password: MBqBrq
+
+uvjP4: &uvjP4
+  port: 30317
+  password: nA7AKm
+
+ZXSpb: &ZXSpb
+  port: 51320
+  password: PBxgui
+
+BEm5m: &BEm5m
+  port: 54239
+  password: KcjPPR
 
 proxies:
-- name: Korea 1
-  server: 121.170.203.151
-  <<: *ZJ5kz
-- name: Korea 2
+- name: Panda_1
+  server: 61.255.174.139 
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *nPmKX
+- name: Panda_2
   server: 160.202.162.160
-  <<: *ZJ5kz
-- name: Korea 3
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *nPmKX
+- name: Panda_3
   server: 61.255.174.149
-  <<: *ZJ5kz
-- name: Korea 4
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *KSFPX
+- name: Panda_4
   server: 61.255.174.137
-  <<: *2vFeA
-- name: Korea 5
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *KSFPX
+- name: Panda_5
   server: 222.112.127.2
-  <<: *2vFeA
-- name: Korea 6
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *uvjP4
+- name: Panda_6
   server: 211.54.63.2
-  <<: *2vFeA
-- name: Korea 7
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *uvjP4
+- name: Panda_7
   server: 27.255.82.17
-  <<: *nPmKX
-- name: Korea 8
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *ZXSpb
+- name: Panda_8
   server: 61.255.174.163
-  <<: *nPmKX
-- name: Korea 9
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *ZXSpb
+- name: Panda_9
   server: 27.255.75.131
-  <<: *nPmKX
-- name: Korea 10
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *BEm5m
+- name: Panda_10
   server: 103.212.222.251
-  <<: *nPmKX
-- name: Korea 11
-  server: kr01.neobgp.xyz
-  port: 53031
-  <<: *Test
-- name: Korea 12
-  server: kr02.neobgp.xyz
-  port: 53032
-  <<: *Test
-- name: Korea 13
-  server: kr03.neobgp.xyz
-  port: 53033
-  <<: *Test
-- name: Korea 14
-  server: kr04.neobgp.xyz
-  port: 53034
-  <<: *Test
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *BEm5m
+
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -158,6 +183,23 @@ proxies:
 - name: KR_유료3
   port: 56363
   <<: *1ytnode
+
+- name: Neo_KR1
+  server: kr01.neobgp.xyz
+  port: 53031
+  <<: *Neo
+- name: Neo_KR2
+  server: kr02.neobgp.xyz
+  port: 53032
+  <<: *Neo
+- name: Neo_KR3
+  server: kr03.neobgp.xyz
+  port: 53033
+  <<: *Neo
+- name: Neo_KR4
+  server: kr04.neobgp.xyz
+  port: 53034
+  <<: *Neo
 
 
 
