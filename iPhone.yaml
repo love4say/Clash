@@ -1,54 +1,6 @@
 
 proxies:
-  - name: Korea 1
-    server: 61.255.174.139
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 29494
-    password: MBqBrq
-  - name: Korea 2
-    server: 160.202.162.160
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 29494
-    password: MBqBrq
-  - name: Korea 3
-    server: 61.255.174.149
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 29494
-    password: MBqBrq
-  - name: Korea 4
-    server: 61.255.174.139
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 30317
-    password: nA7AKm
-  - name: Korea 5
-    server: 160.202.162.160
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 30317
-    password: nA7AKm
-  - name: Korea 6
-    server: 61.255.174.149
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 30317
-    password: nA7AKm
-  - name: Korea 7
+  - name: Panda_1
     server: 61.255.174.139
     type: ssr
     cipher: aes-256-ctr
@@ -56,7 +8,7 @@ proxies:
     protocol: auth_aes128_md5
     port: 45270
     password: iUgcRF
-  - name: Korea 8
+  - name: Panda_2
     server: 160.202.162.160
     type: ssr
     cipher: aes-256-ctr
@@ -64,22 +16,70 @@ proxies:
     protocol: auth_aes128_md5
     port: 45270
     password: iUgcRF
-  - name: Korea 9
+  - name: Panda_3
     server: 61.255.174.149
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 45270
-    password: iUgcRF
-  - name: Korea 10
+    port: 29494
+    password: MBqBrq
+  - name: Panda_4
     server: 61.255.174.137
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 45270
-    password: iUgcRF
+    port: 29494
+    password: MBqBrq
+  - name: Panda_5
+    server: 222.112.127.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Panda_6
+    server: 211.54.63.2
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 30317
+    password: nA7AKm
+  - name: Panda_7
+    server: 27.255.82.17
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 51320
+    password: PBxgui
+  - name: Panda_8
+    server: 61.255.174.163
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 51320
+    password: PBxgui
+  - name: Panda_9
+    server: 27.255.75.131
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 54239
+    password: KcjPPR
+  - name: Panda_10
+    server: 103.212.222.251
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 54239
+    password: KcjPPR
   - name: KR BatVPN_1
     server: bja.lightssocks.com
     port: 33342
@@ -127,28 +127,28 @@ proxies:
     password: f7824d00-4b11-4574-a1b7-eebf6b695c73
     udp: true
     skip-cert-verify: true
-  - name: Test_KR1
+  - name: Neo_KR1
     server: kr01.neobgp.xyz
     port: 53031
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
-  - name: Test_KR2
+  - name: Neo_KR2
     server: kr02.neobgp.xyz
     port: 53032
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
-  - name: Test_KR3
+  - name: Neo_KR3
     server: kr03.neobgp.xyz
     port: 53033
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
-  - name: Test_KR4
+  - name: Neo_KR4
     server: kr04.neobgp.xyz
     port: 53034
     type: ss
