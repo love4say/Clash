@@ -42,115 +42,123 @@ cfw-latency-timeout: 10000
 cfw-latency-url: http://www.gstatic.com/generate_204
 cfw-conn-break-strategy: true
 
-Test: &Test
+Neo: &Neo
   type: ss  
   cipher: aes-128-gcm
   password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
   udp: true
-
+  
 BatVPN: &BatVPN
   type: ss  
   cipher: aes-256-gcm
   password: ac7b97ea
   udp: true
-  
+
 1ytnode: &1ytnode
   type: trojan
   server: s19fvirxvk2nyss.1ytnode.com
   password: f7824d00-4b11-4574-a1b7-eebf6b695c73
   udp: true
   skip-cert-verify: true
-  
+
 proxies-default: &proxies-default
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
 
-ZJ5kz: &ZJ5kz
-  port: 29494
-  password: MBqBrq
-
-2vFeA: &2vFeA
-  port: 30317
-  password: nA7AKm
-
 nPmKX: &nPmKX
   port: 45270
   password: iUgcRF
 
+KSFPX: &KSFPX
+  port: 29494
+  password: MBqBrq
+
+uvjP4: &uvjP4
+  port: 30317
+  password: nA7AKm
+
+ZXSpb: &ZXSpb
+  port: 51320
+  password: PBxgui
+
+BEm5m: &BEm5m
+  port: 54239
+  password: KcjPPR
+
 
 proxies:
-- name: Korea 1
-  server: 121.170.203.151
+- name: Panda_1
+  server: 61.255.174.139 
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 2
+  <<: *nPmKX
+- name: Panda_2
   server: 160.202.162.160
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 3
+  <<: *nPmKX
+- name: Panda_3
   server: 61.255.174.149
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *ZJ5kz
-- name: Korea 4
+  <<: *KSFPX
+- name: Panda_4
+  server: 61.255.174.137
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *KSFPX
+- name: Panda_5
+  server: 222.112.127.2
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *uvjP4
+- name: Panda_6
   server: 211.54.63.2
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 5
+  <<: *uvjP4
+- name: Panda_7
   server: 27.255.82.17
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 6
+  <<: *ZXSpb
+- name: Panda_8
   server: 61.255.174.163
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *2vFeA
-- name: Korea 7
-  server: 27.255.82.17
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 8
-  server: 61.255.174.163
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 9
+  <<: *ZXSpb
+- name: Panda_9
   server: 27.255.75.131
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
-- name: Korea 10
+  <<: *BEm5m
+- name: Panda_10
   server: 103.212.222.251
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
-  <<: *nPmKX
+  <<: *BEm5m
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -179,72 +187,72 @@ proxies:
   password: love4say_1004ksy
   udp: true
 
-- name: Test_KR1
+- name: Neo_KR1
   server: kr01.neobgp.xyz
   port: 53031
-  <<: *Test
-- name: Test_KR2
+  <<: *Neo
+- name: Neo_KR2
   server: kr02.neobgp.xyz
   port: 53032
-  <<: *Test
-- name: Test_KR3
+  <<: *Neo
+- name: Neo_KR3
   server: kr03.neobgp.xyz
   port: 53033
-  <<: *Test
-- name: Test_KR4
+  <<: *Neo
+- name: Neo_KR4
   server: kr04.neobgp.xyz
   port: 53034
-  <<: *Test
-
+  <<: *Neo
 
 proxy-groups:
 - name: 🔰 VPN설정
   type: select
   proxies:
   - 자동 설정
-  - Korea 1
-  - Korea 2
-  - Korea 3
-  - Korea 4
-  - Korea 5
-  - Korea 6
-  - Korea 7
-  - Korea 8
-  - Korea 9
-  - Korea 10
+  - Panda_1
+  - Panda_2
+  - Panda_3
+  - Panda_4
+  - Panda_5
+  - Panda_6
+  - Panda_7
+  - Panda_8
+  - Panda_9
+  - Panda_10
   - KR BatVPN_1
   - KR BatVPN_2
   - KR PingPrime
   - KR PingPrime2
-  - Test_KR1
-  - Test_KR2
-  - Test_KR3
-  - Test_KR4
+  - Neo_KR1
+  - Neo_KR2
+  - Neo_KR3
+  - Neo_KR4
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 자동 설정
   type: load-balance
   strategy: consistent-hashing
   proxies:
-  - Korea 1
-  - Korea 2
-  - Korea 3
-  - Korea 4
-  - Korea 5
-  - Korea 6
-  - Korea 7
-  - Korea 8
-  - Korea 9
-  - Korea 10
+  - Panda_1
+  - Panda_2
+  - Panda_3
+  - Panda_4
+  - Panda_5
+  - Panda_6
+  - Panda_7
+  - Panda_8
+  - Panda_9
+  - Panda_10
   - KR BatVPN_1
   - KR BatVPN_2
   - KR PingPrime
   - KR PingPrime2
-  - Test_KR1
-  - Test_KR2
-  - Test_KR3
-  - Test_KR4
+  - Neo_KR1
+  - Neo_KR2
+  - Neo_KR3
+  - Neo_KR4
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
