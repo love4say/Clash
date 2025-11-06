@@ -84,6 +84,10 @@ BEm5m: &BEm5m
   port: 54239
   password: KcjPPR
 
+QE5vv: &QE5vv
+  port: 46719
+  password: 3kHdZg
+
 proxies:
 - name: Panda_1
   server: 61.255.174.139 
@@ -155,7 +159,20 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *BEm5m
-
+- name: Panda_11
+  server: 27.255.79.138
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *BEm5m
+- name: Panda_12
+  server: 222.112.127.1
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *BEm5m
 
 - name: KR BatVPN_1
   server: bja.lightssocks.com
@@ -10214,6 +10231,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
