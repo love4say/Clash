@@ -169,3 +169,19 @@ proxies:
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
+  - name: Panda_13
+    server: 221.168.46.1
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 19680
+    password: SCryzH
+  - name: Panda_14
+    server: 61.255.174.164
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 19680
+    password: SCryzH
