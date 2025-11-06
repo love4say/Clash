@@ -1,5 +1,80 @@
 
 proxies:
+  - name: KR BatVPN_1
+    server: bja.lightssocks.com
+    port: 33342
+    type: ss
+    cipher: aes-256-gcm
+    password: ac7b97ea
+    udp: true
+  - name: KR BatVPN_2
+    server: gdb.lightssocks.com
+    port: 33338
+    type: ss
+    cipher: aes-256-gcm
+    password: ac7b97ea
+    udp: true
+  - name: PingPrime_SS
+    type: ss
+    server: love4say.duckdns.org
+    port: 21132
+    password: love4say_1004ksy
+    udp: true
+  - name: PingPrime_anytls
+    type: ss
+    server: love4say.duckdns.org
+    port: 21301
+    password: love4say_1004ksy
+    udp: true
+  - name: KR_유료1
+    port: 56361
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: KR_유료2
+    port: 56362
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: KR_유료3
+    port: 56363
+    type: trojan
+    server: s19fvirxvk2nyss.1ytnode.com
+    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
+    udp: true
+    skip-cert-verify: true
+  - name: Neo_KR1
+    server: kr01.neobgp.xyz
+    port: 53031
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Neo_KR2
+    server: kr02.neobgp.xyz
+    port: 53032
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Neo_KR3
+    server: kr03.neobgp.xyz
+    port: 53033
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
+  - name: Neo_KR4
+    server: kr04.neobgp.xyz
+    port: 53034
+    type: ss
+    cipher: aes-128-gcm
+    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
+    udp: true
   - name: Panda_1
     server: 61.255.174.139
     type: ssr
@@ -80,78 +155,17 @@ proxies:
     protocol: auth_aes128_md5
     port: 54239
     password: KcjPPR
-  - name: KR BatVPN_1
-    server: bja.lightssocks.com
-    port: 33342
-    type: ss
-    cipher: aes-256-gcm
-    password: ac7b97ea
-    udp: true
-  - name: KR BatVPN_2
-    server: gdb.lightssocks.com
-    port: 33338
-    type: ss
-    cipher: aes-256-gcm
-    password: ac7b97ea
-    udp: true
-  - name: PingPrime_SS
-    type: ss
-    server: love4say.duckdns.org
-    port: 21132
-    password: love4say_1004ksy
-    udp: true
-  - name: PingPrime_anytls
-    type: ss
-    server: love4say.duckdns.org
-    port: 21301
-    password: love4say_1004ksy
-    udp: true
-  - name: KR_유료1
-    port: 56361
-    type: trojan
-    server: s19fvirxvk2nyss.1ytnode.com
-    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
-    udp: true
-    skip-cert-verify: true
-  - name: KR_유료2
-    port: 56362
-    type: trojan
-    server: s19fvirxvk2nyss.1ytnode.com
-    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
-    udp: true
-    skip-cert-verify: true
-  - name: KR_유료3
-    port: 56363
-    type: trojan
-    server: s19fvirxvk2nyss.1ytnode.com
-    password: f7824d00-4b11-4574-a1b7-eebf6b695c73
-    udp: true
-    skip-cert-verify: true
-  - name: Neo_KR1
-    server: kr01.neobgp.xyz
-    port: 53031
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
-  - name: Neo_KR2
-    server: kr02.neobgp.xyz
-    port: 53032
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
-  - name: Neo_KR3
-    server: kr03.neobgp.xyz
-    port: 53033
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
-  - name: Neo_KR4
-    server: kr04.neobgp.xyz
-    port: 53034
-    type: ss
-    cipher: aes-128-gcm
-    password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
-    udp: true
+  - name: Panda_11
+    server: 27.255.79.138
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
+    port: 46719
+    password: 3kHdZg
+  - name: Panda_12
+    server: 222.112.127.1
+    type: ssr
+    cipher: aes-256-ctr
+    obfs: tls1.2_ticket_auth
+    protocol: auth_aes128_md5
