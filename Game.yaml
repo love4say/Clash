@@ -91,6 +91,10 @@ QE5vv: &QE5vv
   port: 46719
   password: 3kHdZg
 
+QMhJs: QMhJs
+  port: 19680
+  password: SCryzH
+
 proxies:
 - name: Panda_1
   server: 61.255.174.139 
@@ -176,6 +180,20 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *QE5vv
+- name: Panda_13
+  server: 221.168.46.1
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *QMhJs
+- name: Panda_14
+  server: 61.255.174.164
+  type: ssr
+  cipher: aes-256-ctr
+  obfs: tls1.2_ticket_auth
+  protocol: auth_aes128_md5
+  <<: *QMhJs
 
 
 - name: KR BatVPN_1
@@ -239,6 +257,8 @@ proxy-groups:
   - Panda_10
   - Panda_11
   - Panda_12
+  - Panda_13
+  - Panda_14
   - KR BatVPN_1
   - KR BatVPN_2
   - KR PingPrime
@@ -265,6 +285,8 @@ proxy-groups:
   - Panda_10
   - Panda_11
   - Panda_12
+  - Panda_13
+  - Panda_14
   - KR BatVPN_1
   - KR BatVPN_2
   - KR PingPrime
@@ -276,6 +298,7 @@ proxy-groups:
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
 
 
