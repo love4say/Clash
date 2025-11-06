@@ -274,6 +274,8 @@ proxy-groups:
   - Panda_8
   - Panda_9
   - Panda_10
+  - Panda_11
+  - Panda_12
 - name: 자동 설정
   type: load-balance
   strategy: consistent-hashing
@@ -10231,6 +10233,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
