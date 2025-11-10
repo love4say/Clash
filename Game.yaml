@@ -68,8 +68,8 @@ proxies-default: &proxies-default
   protocol: auth_aes128_md5
 
 nPmKX: &nPmKX
-  port: 45270
-  password: iUgcRF
+  port: 19680
+  password: SCryzH
 
 KSFPX: &KSFPX
   port: 29494
@@ -298,6 +298,7 @@ proxy-groups:
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
 
 
