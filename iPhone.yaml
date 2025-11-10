@@ -81,16 +81,16 @@ proxies:
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 45270
-    password: iUgcRF
+    port: 19680
+    password: SCryzH
   - name: Panda_2
     server: 160.202.162.160
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 45270
-    password: iUgcRF
+    port: 19680
+    password: SCryzH
   - name: Panda_3
     server: 61.255.174.149
     type: ssr
