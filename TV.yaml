@@ -65,8 +65,8 @@ proxies-default: &proxies-default
   protocol: auth_aes128_md5
 
 nPmKX: &nPmKX
-  port: 19680
-  password: SCryzH
+  port: 62285
+  password: Sb7qTt
   
 KSFPX: &KSFPX
   port: 29494
@@ -235,6 +235,7 @@ proxies:
   server: kr04.neobgp.xyz
   port: 53034
   <<: *Neo
+
 
 
 
