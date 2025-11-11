@@ -275,6 +275,8 @@ proxy-groups:
   - Neo_KR2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 자동 설정
@@ -303,9 +305,12 @@ proxy-groups:
   - Neo_KR2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
 
 
