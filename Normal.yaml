@@ -272,6 +272,8 @@ proxy-groups:
   - Neo_KR2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎥 넷플릭스
@@ -290,6 +292,8 @@ proxy-groups:
   - Neo_KR2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
   - Panda_1
   - Panda_2
   - Panda_3
@@ -320,6 +324,8 @@ proxy-groups:
   - Neo_KR2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -10264,6 +10270,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
