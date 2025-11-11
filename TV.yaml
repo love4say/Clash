@@ -235,6 +235,14 @@ proxies:
   server: kr04.neobgp.xyz
   port: 53034
   <<: *Neo
+- name: Neo_KR5
+  server: kr05.neobgp.xyz
+  port: 53035
+  <<: *Neo
+- name: Neo_KR6
+  server: kr06.neobgp.xyz
+  port: 53036
+  <<: *Neo
 
 
 
