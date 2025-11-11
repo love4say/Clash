@@ -360,8 +360,10 @@ rules:
 - DOMAIN-KEYWORD,chatgtp,🔰 VPN설정
 - PROCESS-NAME,qbittorrent,DIRECT
 - PROCESS-NAME,qbittorrent.exe,DIRECT
-- PROCESS-NAME,MEmu.exe,DIRECT
-- PROCESS-NAME,MEmu,DIRECT
+- PROCESS-NAME,MEmuConsole.exe,🔰 VPN설정
+- PROCESS-NAME,MEmuConsole,🔰 VPN설정
+- PROCESS-NAME,MEmu.exe,🔰 VPN설정
+- PROCESS-NAME,MEmu,🔰 VPN설정
 - PROCESS-NAME,Battle.net.exe,🔰 VPN설정
 - PROCESS-NAME,Battle.net,🔰 VPN설정
 - PROCESS-NAME,HeroesOfTheStorm_x64.exe,🔰 VPN설정
@@ -10262,6 +10264,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
