@@ -104,7 +104,7 @@ proxies:
   protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Panda_2
-  server: 160.202.162.160
+  server: 121.170.203.151
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
@@ -310,6 +310,7 @@ proxy-groups:
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
 
 
