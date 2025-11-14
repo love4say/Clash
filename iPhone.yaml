@@ -98,7 +98,7 @@ proxies:
     port: 62285
     password: Sb7qTt
   - name: Panda_2
-    server: 160.202.162.160
+    server: 121.170.203.151
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
