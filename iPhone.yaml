@@ -46,44 +46,44 @@ proxies:
     server: s19fvirxvk2nyss.1ytnode.com
     password: f7824d00-4b11-4574-a1b7-eebf6b695c73
     udp: true
-    skip-cert-verify: true
+    skip-cert-verify: true  
   - name: Neo_KR1
-    server: kr01.neobgp.xyz
+    server: cn-gzcm.tt1xian.net
     port: 53031
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR2
-    server: kr02.neobgp.xyz
+    server: cn-gzcu.nn1xian.com
     port: 53032
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR3
-    server: kr03.neobgp.xyz
+    server: cn-gzcm.tt1xian.net
     port: 53033
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR4
-    server: kr04.neobgp.xyz
+    server: cn-gzcu.nn1xian.com
     port: 53034
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR5
-    server: kr05.neobgp.xyz
+    server: cn-gzcm.tt1xian.net
     port: 53035
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR6
-    server: kr06.neobgp.xyz
+    server: cn-gzcu.nn1xian.com
     port: 53036
     type: ss
     cipher: aes-128-gcm
