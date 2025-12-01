@@ -224,27 +224,27 @@ proxies:
   udp: true
 
 - name: Neo_KR1
-  server: kr01.neobgp.xyz
+  server: cn-gzcm.tt1xian.net
   port: 53031
   <<: *Neo
 - name: Neo_KR2
-  server: kr02.neobgp.xyz
+  server: cn-gzcu.nn1xian.com
   port: 53032
   <<: *Neo
 - name: Neo_KR3
-  server: kr03.neobgp.xyz
+  server: cn-gzcm.tt1xian.net
   port: 53033
   <<: *Neo
 - name: Neo_KR4
-  server: kr04.neobgp.xyz
+  server: cn-gzcu.nn1xian.com
   port: 53034
   <<: *Neo
 - name: Neo_KR5
-  server: kr05.neobgp.xyz
+  server: cn-gzcm.tt1xian.net
   port: 53035
   <<: *Neo
 - name: Neo_KR6
-  server: kr06.neobgp.xyz
+  server: cn-gzcu.nn1xian.com
   port: 53036
   <<: *Neo
 
@@ -310,6 +310,7 @@ proxy-groups:
 
 rules:
   - MATCH, 🔰 VPN설정
+
 
 
 
