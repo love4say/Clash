@@ -288,6 +288,7 @@ proxy-groups:
   url: https://www.netflix.com/title/81215567
   interval: 300
   proxies:
+  - 자동 설정
   - KR PingPrime
   - KR PingPrime2
   - KR_유료1
@@ -10280,6 +10281,7 @@ rules:
 - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
 - MATCH,🔰 VPN설정
+
 
 
 
