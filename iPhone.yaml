@@ -105,6 +105,7 @@ proxies:
     protocol: auth_aes128_md5
     port: 62285
     password: Sb7qTt
+    
   - name: Panda_3
     server: 61.255.174.149
     type: ssr
@@ -121,54 +122,58 @@ proxies:
     protocol: auth_aes128_md5
     port: 29494
     password: MBqBrq
+    
   - name: Panda_5
     server: 222.112.127.2
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 30317
-    password: nA7AKm
+    port: 51320
+    password: PBxgui
   - name: Panda_6
     server: 211.54.63.2
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 30317
-    password: nA7AKm
+    port: 51320
+    password: PBxgui
+    
   - name: Panda_7
     server: 27.255.82.17
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 51320
-    password: PBxgui
+    port: 46719
+    password: 3kHdZg
   - name: Panda_8
     server: 61.255.174.163
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 51320
-    password: PBxgui
+    port: 46719
+    password: 3kHdZg
+    
   - name: Panda_9
     server: 27.255.75.131
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 54239
-    password: KcjPPR
+    port: 19680
+    password: SCryzH
   - name: Panda_10
     server: 103.212.222.251
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 54239
-    password: KcjPPR
+    port: 19680
+    password: SCryzH
+    
   - name: Panda_11
     server: 27.255.79.138
     type: ssr
@@ -183,6 +188,7 @@ proxies:
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
+    
   - name: Panda_13
     server: 221.168.46.1
     type: ssr
