@@ -73,24 +73,24 @@ KSFPX: &KSFPX
   password: MBqBrq
 
 uvjP4: &uvjP4
-  port: 30317
-  password: nA7AKm
-
-ZXSpb: &ZXSpb
   port: 51320
   password: PBxgui
 
+ZXSpb: &ZXSpb
+  port: 46719
+  password: 3kHdZg
+
 BEm5m: &BEm5m
-  port: 54239
-  password: KcjPPR
+  port: 19680
+  password: SCryzH
 
 QE5vv: &QE5vv
   port: 46719
   password: 3kHdZg
 
 QMhJs: &QMhJs
-  port: 19680
-  password: SCryzH
+  port: 62285
+  password: Sb7qTt
 
 proxies:
 - name: Panda_1
@@ -243,6 +243,7 @@ proxies:
   server: cn-gzcu.nn1xian.com
   port: 53036
   <<: *Neo
+
 
 
 
