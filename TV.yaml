@@ -65,8 +65,8 @@ proxies-default: &proxies-default
   protocol: auth_aes128_md5
 
 nPmKX: &nPmKX
-  port: 62285
-  password: Sb7qTt
+  port: 30317
+  password: nA7AKm
   
 KSFPX: &KSFPX
   port: 29494
@@ -85,8 +85,8 @@ BEm5m: &BEm5m
   password: SCryzH
 
 QE5vv: &QE5vv
-  port: 46719
-  password: 3kHdZg
+  port: 13286
+  password: SXfR5X
 
 QMhJs: &QMhJs
   port: 62285
@@ -243,6 +243,7 @@ proxies:
   server: cn-gzcu.nn1xian.com
   port: 53036
   <<: *Neo
+
 
 
 
