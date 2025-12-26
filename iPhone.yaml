@@ -89,23 +89,23 @@ proxies:
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
+  
   - name: Panda_1
     server: 61.255.174.139
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 62285
-    password: Sb7qTt
+    port: 30317
+    password: nA7AKm
   - name: Panda_2
     server: 121.170.203.151
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 62285
-    password: Sb7qTt
-    
+    port: 30317
+    password: nA7AKm
   - name: Panda_3
     server: 61.255.174.149
     type: ssr
@@ -122,7 +122,6 @@ proxies:
     protocol: auth_aes128_md5
     port: 29494
     password: MBqBrq
-    
   - name: Panda_5
     server: 222.112.127.2
     type: ssr
@@ -139,7 +138,6 @@ proxies:
     protocol: auth_aes128_md5
     port: 51320
     password: PBxgui
-    
   - name: Panda_7
     server: 27.255.82.17
     type: ssr
@@ -156,7 +154,6 @@ proxies:
     protocol: auth_aes128_md5
     port: 46719
     password: 3kHdZg
-    
   - name: Panda_9
     server: 27.255.75.131
     type: ssr
@@ -173,35 +170,35 @@ proxies:
     protocol: auth_aes128_md5
     port: 19680
     password: SCryzH
-    
   - name: Panda_11
     server: 27.255.79.138
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 46719
-    password: 3kHdZg
+    port: 13286
+    password: SXfR5X
   - name: Panda_12
     server: 222.112.127.1
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    
+    port: 13286
+    password: SXfR5X
   - name: Panda_13
     server: 221.168.46.1
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 19680
-    password: SCryzH
+    port: 62285
+    password: Sb7qTt
   - name: Panda_14
     server: 61.255.174.164
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
     protocol: auth_aes128_md5
-    port: 19680
-    password: SCryzH
+    port: 62285
+    password: Sb7qTt
