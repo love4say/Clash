@@ -277,6 +277,8 @@ proxy-groups:
   - KR BatVPN_2
   - Neo_KR3
   - Neo_KR4
+  - Neo_KR5
+  - Neo_KR6
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🎥 넷플릭스
