@@ -367,7 +367,7 @@ proxy-groups:
   proxies:
   - 🎥 넷플릭스
 rules:
-- PROCESS-NAME,HD-Player.exe,Neo_KR3
+- PROCESS-NAME,HD-Player.exe,🎥 넷플릭스
 - DOMAIN-SUFFIX,mypikpak.com,🎥 넷플릭스
 - DOMAIN-SUFFIX,pikpak.io,DIRECT
 - DOMAIN-KEYWORD,steam,🎥 넷플릭스
