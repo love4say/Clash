@@ -203,7 +203,7 @@ proxies:
 
 - name: KR PingPrime
   type: ss
-  server: love4say.duckdns.org
+  server: 222.112.66.82
   port: 21132
   cipher: aes-256-gcm
   password: love4say_1004ksy
