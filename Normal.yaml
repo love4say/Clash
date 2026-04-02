@@ -237,11 +237,6 @@ proxy-groups:
   - 자동 설정
   - KR PingPrime
   - KR PingPrime2
-  - KR_유료1
-  - KR_유료2
-  - KR_유료3
-  - KR BatVPN_1
-  - KR BatVPN_2
   - Neo_KR3
   - Neo_KR4
   - Neo_KR5
@@ -256,11 +251,6 @@ proxy-groups:
   - 자동 설정
   - KR PingPrime
   - KR PingPrime2
-  - KR_유료1
-  - KR_유료2
-  - KR_유료3
-  - KR BatVPN_1
-  - KR BatVPN_2
   - Neo_KR1
   - Neo_KR2
   - Neo_KR3
@@ -288,11 +278,6 @@ proxy-groups:
   proxies:
   - KR PingPrime
   - KR PingPrime2
-  - KR_유료1
-  - KR_유료2
-  - KR_유료3
-  - KR BatVPN_1
-  - KR BatVPN_2
   - Neo_KR1
   - Neo_KR2
   - Neo_KR3
@@ -338,12 +323,11 @@ rules:
 - DOMAIN-SUFFIX,mypikpak.com,🎥 넷플릭스
 - DOMAIN-SUFFIX,pikpak.io,DIRECT
 - DOMAIN-KEYWORD,steam,🎥 넷플릭스
-- DOMAIN-KEYWORD,javdb,KR BatVPN_1
 - DOMAIN-KEYWORD,chatgtp,🔰 VPN설정
 - PROCESS-NAME,qbittorrent,DIRECT
 - PROCESS-NAME,qbittorrent.exe,DIRECT
-- PROCESS-NAME,KakaoTalk.exe,Neo_KR3
-- PROCESS-NAME,KakaoTalk,Neo_KR3
+- PROCESS-NAME,KakaoTalk.exe,🎥 넷플릭스
+- PROCESS-NAME,KakaoTalk,🎥 넷플릭스
 - PROCESS-NAME,MEmuConsole.exe,🔰 VPN설정
 - PROCESS-NAME,MEmuConsole,🔰 VPN설정
 - PROCESS-NAME,MEmu.exe,🔰 VPN설정
