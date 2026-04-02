@@ -16,13 +16,13 @@ proxies:
     udp: true
   - name: PingPrime_SS
     type: ss
-    server: love4say.duckdns.org
+    server: 222.112.66.82
     port: 21132
     password: love4say_1004ksy
     udp: true
   - name: PingPrime_anytls
     type: ss
-    server: love4say.duckdns.org
+    server: 222.112.66.82
     port: 21301
     password: love4say_1004ksy
     udp: true
