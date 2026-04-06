@@ -1,19 +1,5 @@
 
 proxies:
-  - name: KR BatVPN_1
-    server: bja.lightssocks.com
-    port: 33342
-    type: ss
-    cipher: aes-256-gcm
-    password: ac7b97ea
-    udp: true
-  - name: KR BatVPN_2
-    server: gdb.lightssocks.com
-    port: 33338
-    type: ss
-    cipher: aes-256-gcm
-    password: ac7b97ea
-    udp: true
   - name: PingPrime_SS
     type: ss
     server: 222.112.66.82
