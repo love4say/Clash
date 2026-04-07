@@ -192,7 +192,7 @@ proxies:
   port: 53031
   <<: *Neo
 - name: Neo_KR2
-  server: cn-gzcu.nn1xian.com
+  server: cn-1.8q5z4hrn7t5u.bada.ninja
   port: 53032
   <<: *Neo
 - name: Neo_KR3
@@ -200,7 +200,7 @@ proxies:
   port: 53033
   <<: *Neo
 - name: Neo_KR4
-  server: cn-gzcu.nn1xian.com
+  server: cn-1.8q5z4hrn7t5u.bada.ninja
   port: 53034
   <<: *Neo
 - name: Neo_KR5
