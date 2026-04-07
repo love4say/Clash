@@ -20,14 +20,14 @@ proxies:
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR2
-    server: cn-gzcu.nn1xian.com
+    server: cn-1.8q5z4hrn7t5u.bada.ninja
     port: 53032
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR3
-    server: cn-gzcm.tt1xian.net
+    server: cn-1.8q5z4hrn7t5u.bada.ninja
     port: 53033
     type: ss
     cipher: aes-128-gcm
