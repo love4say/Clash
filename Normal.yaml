@@ -137,7 +137,7 @@ proxies:
   protocol: auth_aes128_md5
   <<: *ZXSpb
 - name: Panda_9
-  server: 27.255.75.131
+  server: 61.255.174.135
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
