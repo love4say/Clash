@@ -56,7 +56,7 @@ proxies:
     udp: true
   
   - name: Panda_1
-    server: 61.255.174.139
+    server: 160.202.163.36
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -72,7 +72,7 @@ proxies:
     port: 30317
     password: nA7AKm
   - name: Panda_3
-    server: 61.255.174.149
+    server: 103.212.222.249
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -120,7 +120,7 @@ proxies:
     port: 46719
     password: 3kHdZg
   - name: Panda_9
-    server: 27.255.75.131
+    server: 61.255.174.135
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -128,7 +128,7 @@ proxies:
     port: 19680
     password: SCryzH
   - name: Panda_10
-    server: 103.212.222.251
+    server: 160.202.163.162
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -136,7 +136,7 @@ proxies:
     port: 19680
     password: SCryzH
   - name: Panda_11
-    server: 27.255.79.138
+    server: 121.170.203.151
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -160,7 +160,7 @@ proxies:
     port: 62285
     password: Sb7qTt
   - name: Panda_14
-    server: 61.255.174.164
+    server: 61.255.174.133
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
