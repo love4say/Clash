@@ -319,7 +319,7 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   type: select
   proxies:
-  - 🎥 넷플릭스
+  - 🔰 VPN설정
 rules:
 - PROCESS-NAME,HD-Player.exe,🔰 VPN설정
 - DOMAIN-SUFFIX,mypikpak.com,🔰 VPN설정
