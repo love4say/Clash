@@ -233,21 +233,7 @@ proxies:
 proxy-groups:
 - name: 🔰 VPN설정
   type: select
-  proxies:
-  - 자동 설정
-  - KR PingPrime
-  - KR PingPrime2
-  - Neo_KR1
-  - Neo_KR2
-  - Neo_KR3
-  - Neo_KR4
-  - Neo_KR5
-  - Neo_KR6
   url: http://www.gstatic.com/generate_204
-  interval: 300
-- name: 🎥 넷플릭스
-  type: select
-  url: https://www.netflix.com/title/81215567
   interval: 300
   proxies:
   - 자동 설정
@@ -286,6 +272,20 @@ proxy-groups:
   - Neo_KR4
   - Neo_KR5
   - Neo_KR6
+  - Panda_1
+  - Panda_2
+  - Panda_3
+  - Panda_4
+  - Panda_5
+  - Panda_6
+  - Panda_7
+  - Panda_8
+  - Panda_9
+  - Panda_10
+  - Panda_11
+  - Panda_12
+  - Panda_13
+  - Panda_14
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -321,15 +321,15 @@ proxy-groups:
   proxies:
   - 🎥 넷플릭스
 rules:
-- PROCESS-NAME,HD-Player.exe,🎥 넷플릭스
-- DOMAIN-SUFFIX,mypikpak.com,🎥 넷플릭스
+- PROCESS-NAME,HD-Player.exe,🔰 VPN설정
+- DOMAIN-SUFFIX,mypikpak.com,🔰 VPN설정
 - DOMAIN-SUFFIX,pikpak.io,DIRECT
-- DOMAIN-KEYWORD,steam,🎥 넷플릭스
+- DOMAIN-KEYWORD,steam,🔰 VPN설정
 - DOMAIN-KEYWORD,chatgtp,🔰 VPN설정
 - PROCESS-NAME,qbittorrent,DIRECT
 - PROCESS-NAME,qbittorrent.exe,DIRECT
-- PROCESS-NAME,KakaoTalk.exe,🎥 넷플릭스
-- PROCESS-NAME,KakaoTalk,🎥 넷플릭스
+- PROCESS-NAME,KakaoTalk.exe,🔰 VPN설정
+- PROCESS-NAME,KakaoTalk,🔰 VPN설정
 - PROCESS-NAME,MEmuConsole.exe,🔰 VPN설정
 - PROCESS-NAME,MEmuConsole,🔰 VPN설정
 - PROCESS-NAME,MEmu.exe,🔰 VPN설정
