@@ -55,7 +55,7 @@ proxies:
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   
- - name: Panda_1
+  - name: Panda_1
     server: 160.202.163.36
     type: ssr
     cipher: aes-256-ctr
