@@ -56,28 +56,28 @@ nPmKX: &nPmKX
   password: nA7AKm
   
 KSFPX: &KSFPX
-  port: 29494
-  password: MBqBrq
+  port: 46719
+  password: 3kHdZg
 
 uvjP4: &uvjP4
-  port: 51320
-  password: PBxgui
+  port: 19680
+  password: SCryzH
 
 ZXSpb: &ZXSpb
   port: 46719
   password: 3kHdZg
 
 BEm5m: &BEm5m
-  port: 19680
-  password: SCryzH
-
-QE5vv: &QE5vv
-  port: 13286
-  password: SXfR5X
-
-QMhJs: &QMhJs
   port: 62285
   password: Sb7qTt
+
+QE5vv: &QE5vv
+  port: 000000
+  password: 000000
+
+QMhJs: &QMhJs
+  port: 000000
+  password: 000000
 
 proxies:
 - name: Panda_1
