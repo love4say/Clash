@@ -217,11 +217,11 @@ proxies:
   port: 53034
   <<: *Neo
 - name: Neo_KR5
-  server: kr03.badabgp.net
+  server: 210.92.144.202
   port: 53035
   <<: *Neo
 - name: Neo_KR6
-  server: kr04.badabgp.net
+  server: 220.88.142.196
   port: 53036
   <<: *Neo
 
