@@ -7,7 +7,7 @@ proxies:
     password: love4say_1004ksy
     udp: true
   - name: PingPrime_anytls
-    type: ss
+    type: AnyTLS
     server: 222.112.66.82
     port: 21301
     password: love4say_1004ksy
