@@ -12,7 +12,7 @@ proxies:
     port: 21301
     password: love4say_1004ksy
     udp: true
-  - name: Neo_KR1
+- name: Neo_KR1
     server: cn-gzcm.tt1xian.net
     port: 53031
     type: ss
@@ -27,28 +27,28 @@ proxies:
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR3
-    server: cn-1.8q5z4hrn7t5u.bada.ninja
+    server: cn-gzcm.tt1xian.net
     port: 53033
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR4
-    server: cn-gzcu.nn1xian.com
+    server: cn-1.8q5z4hrn7t5u.bada.ninja
     port: 53034
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR5
-    server: kr03.badabgp.net
+    server: 210.92.144.202
     port: 53035
     type: ss
     cipher: aes-128-gcm
     password: 51c606b5-4a16-468f-ac6d-6cc3a6ccf0a6
     udp: true
   - name: Neo_KR6
-    server: kr04.badabgp.net
+    server: 220.88.142.196
     port: 53036
     type: ss
     cipher: aes-128-gcm
