@@ -7,12 +7,12 @@ proxies:
     password: love4say_1004ksy
     udp: true
   - name: PingPrime_anytls
-    type: ss
+    type: AnyTLS
     server: 222.112.66.82
     port: 21301
     password: love4say_1004ksy
     udp: true
-- name: Neo_KR1
+  - name: Neo_KR1
     server: cn-gzcm.tt1xian.net
     port: 53031
     type: ss
