@@ -129,35 +129,3 @@ proxies:
     protocol: auth_aes128_md5
     port: 62285
     password: Sb7qTt
-  - name: Panda_11
-    server: 160.202.162.167
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 0
-    password: 0
-  - name: Panda_12
-    server: 222.112.127.2
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 0
-    password: 0
-  - name: Panda_13
-    server: 222.112.127.2
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 0
-    password: 0
-  - name: Panda_14
-    server: 222.112.127.2
-    type: ssr
-    cipher: aes-256-ctr
-    obfs: tls1.2_ticket_auth
-    protocol: auth_aes128_md5
-    port: 0
-    password: 0
