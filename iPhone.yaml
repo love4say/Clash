@@ -1,11 +1,50 @@
 
 proxies:
+  - name: PingPrime_HH
+    type: hysteria2
+    server: 222.112.66.82
+    port: 21109
+    password: love4say_1004ksy
+    alpn:
+    - h3
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: PingPrime_AnyTLS
+    type: AnyTLS
+    server: 222.112.66.82
+    port: 21301
+    password: love4say_1004ksy
+    alpn:
+    - h3
+    tls: true
+    skip-cert-verify: true
+    udp: true
   - name: PingPrime_SS
     type: ss
     server: 222.112.66.82
     port: 21132
     password: love4say_1004ksy
     udp: true
+  - name: KSY_HOME1
+    type: ss
+    server: 222.112.66.82
+    port: 21132
+    password: love4say_1004ksy
+    udp: true
+  - name: KSY_HOME2
+    type: ss
+    server: 222.112.66.82
+    port: 21132
+    password: love4say_1004ksy
+    udp: true
+  - name: KSY_HOME3
+    type: ss
+    server: 222.112.66.82
+    port: 21132
+    password: love4say_1004ksy
+    udp: true
+    
   - name: Neo_KR1
     server: cn-gzcm.tt1xian.net
     port: 53031
