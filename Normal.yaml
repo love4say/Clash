@@ -45,7 +45,7 @@ KSY1: &KSY1
   udp: true
 
 KSY2: &KSY2
-  server: love4say.duckdus.org
+  server: love4say.duckdns.org
   password: EhdbsGkdbs12!@
   udp: true
   
