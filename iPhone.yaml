@@ -27,11 +27,13 @@ proxies:
     password: love4say_1004ksy
     udp: true
   - name: KSY_HOME1
-    type: ss
-    server: 222.112.66.82
-    port: 21132
-    password: love4say_1004ksy
-    udp: true
+    Type: Hysteria2
+    Server: mrchu.asuscomm.com
+    Port: 4433
+    Password: U0jhH9fcq44OChz2pZgvDwPF3Y6Tf1NG
+    SNI: mrchu.asuscomm.com
+    TLS: ON
+    Allow Insecure: OFF
   - name: KSY_HOME2
     type: ss
     server: 222.112.66.82
