@@ -27,12 +27,13 @@ proxies:
     password: love4say_1004ksy
     udp: true
   - name: KSY_HOME1
-    type: Hysteria2
+    type: hysteria2
     server: mrchu.asuscomm.com
     port: 4433
-    password: U0jhH9fcq44OChz2pZgvDwPF3Y6Tf1NG
+    password: "현재 설정한 비밀번호"
     sni: mrchu.asuscomm.com
-    skip-cert-verify: false
+    skip-cert-verify: true
+    udp: true
   - name: KSY_HOME2
     type: ss
     server: 222.112.66.82
