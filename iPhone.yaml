@@ -35,10 +35,12 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: KSY_HOME2
-    type: ss
-    server: 222.112.66.82
-    port: 21132
-    password: love4say_1004ksy
+    type: hysteria2
+    server: love4say.duckdns.org
+    port: 443
+    password: EhdbsGkdbs12!@
+    sni: mrchu.asuscomm.com
+    skip-cert-verify: true
     udp: true
   - name: KSY_HOME3
     type: ss
