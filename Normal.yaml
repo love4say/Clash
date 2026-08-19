@@ -231,12 +231,10 @@ proxy-groups:
   - 자동 설정
   - KR PingPrime
   - KR PingPrime2
-  - Neo_KR1
-  - Neo_KR2
-  - Neo_KR3
-  - Neo_KR4
-  - Neo_KR5
-  - Neo_KR6
+  - KSY1_HOME
+  - KSY2_HOME
+  - KSY3_HOME
+  - KSY4_HOME
   - Panda_1
   - Panda_2
   - Panda_3
@@ -258,12 +256,10 @@ proxy-groups:
   proxies:
   - KR PingPrime
   - KR PingPrime2
-  - Neo_KR1
-  - Neo_KR2
-  - Neo_KR3
-  - Neo_KR4
-  - Neo_KR5
-  - Neo_KR6
+  - KSY1_HOME
+  - KSY2_HOME
+  - KSY3_HOME
+  - KSY4_HOME
   - Panda_1
   - Panda_2
   - Panda_3
