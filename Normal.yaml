@@ -198,10 +198,13 @@ proxies:
 - name: KSY3_HOME
   type: ss
   port: 8388
+  cipher: chacha20-ietf-poly1305
   <<: *KSY1
+  
 - name: KSY4_HOME
   type: ss
   port: 8388
+  cipher: chacha20-ietf-poly1305
   <<: *KSY2
 
 - name: KR PingPrime
