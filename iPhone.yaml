@@ -44,9 +44,15 @@ proxies:
     udp: true
   - name: KSY_HOME3
     type: ss
-    server: 222.112.66.82
-    port: 21132
-    password: love4say_1004ksy
+    server: mrchu.asuscomm.com
+    port: 8388
+    password: Ehdbsgkdbs12!@
+    udp: true
+  - name: KSY_HOME4
+    type: ss
+    server: love4say.duckdns.org
+    port: 8388
+    password: EhdbsGkdbs12!@
     udp: true
     
   - name: Neo_KR1
