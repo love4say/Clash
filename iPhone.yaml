@@ -28,9 +28,9 @@ proxies:
     udp: true
   - name: KSY_HOME1
     type: hysteria2
-    server: 125.130.131.29
+    server: mrchu.asuscomm.com
     port: 4433
-    password: "현재 설정한 비밀번호"
+    password: U0jhH9fcq44OChz2pZgvDwPF3Y6Tf1NG
     sni: mrchu.asuscomm.com
     skip-cert-verify: true
     udp: true
