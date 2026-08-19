@@ -46,7 +46,7 @@ proxies:
     type: ss
     server: mrchu.asuscomm.com
     port: 8388
-    password: Ehdbsgkdbs12!@
+    password: EhdbsGkdbs12!@
     udp: true
   - name: KSY_HOME4
     type: ss
