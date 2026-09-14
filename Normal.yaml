@@ -85,98 +85,98 @@ QMhJs: &QMhJs
 
 proxies:
 - name: Panda_1
-  server: 121.170.203.130
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Panda_2
-  server: 27.255.82.17
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *nPmKX
 - name: Panda_3
-  server: 27.255.75.138
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *KSFPX
 - name: Panda_4
-  server: 221.168.46.2
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *KSFPX
 - name: Panda_5
-  server: 160.202.163.161
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *uvjP4
 - name: Panda_6
-  server: 222.112.127.1
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *uvjP4
 - name: Panda_7
-  server: 27.255.79.137
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *ZXSpb
 - name: Panda_8
-  server: 61.255.174.135
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *ZXSpb
 - name: Panda_9
-  server: 61.255.174.162
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *BEm5m
 - name: Panda_10
-  server: 61.255.174.133
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *BEm5m
 - name: Panda_11
-  server: 160.202.162.167
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *QE5vv
 - name: Panda_12
-  server: 222.112.127.2
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *QE5vv
 - name: Panda_13
-  server: 222.112.127.2
+  server: 61.97.249.21
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
   protocol: auth_aes128_md5
   <<: *QMhJs
 - name: Panda_14
-  server: 222.112.127.2
+  server: 61.97.249.144
   type: ssr
   cipher: aes-256-ctr
   obfs: tls1.2_ticket_auth
