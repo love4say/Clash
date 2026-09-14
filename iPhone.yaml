@@ -56,7 +56,7 @@ proxies:
     udp: true
   
   - name: Panda_1
-    server: 121.170.203.130
+    server: 61.97.249.144
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -64,7 +64,7 @@ proxies:
     port: 30317
     password: nA7AKm
   - name: Panda_2
-    server: 27.255.82.17
+    server: 61.97.249.21
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -72,7 +72,7 @@ proxies:
     port: 30317
     password: nA7AKm
   - name: Panda_3
-    server: 27.255.75.138
+    server: 61.97.249.21
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -80,7 +80,7 @@ proxies:
     port: 46719
     password: 3kHdZg
   - name: Panda_4
-    server: 221.168.46.2
+    server: 61.97.249.144
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -88,7 +88,7 @@ proxies:
     port: 46719
     password: 3kHdZg
   - name: Panda_5
-    server: 160.202.163.161
+    server: 61.97.249.144
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -96,7 +96,7 @@ proxies:
     port: 19680
     password: SCryzH
   - name: Panda_6
-    server: 222.112.127.1
+    server: 61.97.249.21
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -104,7 +104,7 @@ proxies:
     port: 19680
     password: SCryzH
   - name: Panda_7
-    server: 27.255.79.137
+    server: 61.97.249.21
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -112,7 +112,7 @@ proxies:
     port: 46719
     password: 3kHdZg
   - name: Panda_8
-    server: 61.255.174.135
+    server: 61.97.249.144
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -120,7 +120,7 @@ proxies:
     port: 46719
     password: 3kHdZg
   - name: Panda_9
-    server: 61.255.174.162
+    server: 61.97.249.144
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
@@ -128,7 +128,7 @@ proxies:
     port: 62285
     password: Sb7qTt
   - name: Panda_10
-    server: 61.255.174.133
+    server: 61.97.249.21
     type: ssr
     cipher: aes-256-ctr
     obfs: tls1.2_ticket_auth
