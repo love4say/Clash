@@ -1,122 +1,19 @@
-mixed-port: 7890
-allow-lan: false
-bind-address: "*"
-mode: global
-log-level: info
-external-controller: ""
-dns:
-  enable: true
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
-    - 168.126.63.1
-    - 168.126.63.2
-    - 164.124.101.2
-    - 203.248.252.2
-    - 219.250.36.130
-    - 210.220.163.82
-    - 8.8.8.8
-    - 8.8.4.4
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  nameserver:
-    - https://120.53.53.53/dns-query
-    - https://223.5.5.5/dns-query
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fake-ip-filter:
-    - "*"
-    - +.lan
-    - +.local
-    - time.*.com
-    - ntp.*.com
-    - +.market.xiaomi.com
-  use-system-hosts: false
-  proxy-server-nameserver:
-    - https://120.53.53.53/dns-query
-    - https://223.5.5.5/dns-query
-  direct-nameserver: []
-  respect-rules: false
-BatVPN: &BatVPN
-  type: ss  
-  cipher: aes-256-gcm
-  password: ac7b97ea
-  udp: true
-
-ZJ5kz: &ZJ5kz
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  port: 51320
-  password: PBxgui
-
-2vFeA: &2vFeA
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  port: 30317
-  password: nA7AKm
-
-nPmKX: &nPmKX
-  type: ssr
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-  port: 29494
-  password: MBqBrq
-
-
 proxies:
-- name: CN 1_1
-  server: 61.97.249.156
-  <<: *ZJ5kz
-- name: CN 1_2
-  server: 61.97.249.14
-  <<: *ZJ5kz
-- name: CN 2_1
-  server: 61.97.249.156
-  <<: *2vFeA
-- name: CN 2_2
-  server: 61.97.249.14
-  <<: *2vFeA
-- name: CN 3_1
-  server: 61.97.249.156
-  <<: *nPmKX
-- name: CN 3_2
-  server: 61.97.249.14
-  <<: *nPmKX
-
-- name: TW BatVPN_1
-  server: sha.lightssocks.com
-  port: 33335
-  <<: *BatVPN
-- name: TW BatVPN_2
-  server: gdb.lightssocks.com
-  port: 33340
-  <<: *BatVPN
-- name: HK BatVPN_1
-  server: gda.lightssocks.com
-  port: 33341
-  <<: *BatVPN
-- name: HK BatVPN_2
-  server: sha.lightssocks.com
-  port: 33336
-  <<: *BatVPN
-- name: HK BatVPN_3
-  server: fja.lightssocks.com
-  port: 33332
-  <<: *BatVPN
-
-
-
-
-
-
-
-
-
-
-
+  - name: PingPrime_SS
+    type: ss
+    server: 222.112.66.82
+    port: 21132
+    password: love4say_1004ksy
+    udp: true
+  - name: KSY_HOME3
+    type: ss
+    server: mrchu.asuscomm.com
+    port: 8388
+    password: EhdbsGkdbs12!@
+    udp: true
+  - name: KSY_HOME4
+    type: ss
+    server: love4say.duckdns.org
+    port: 8388
+    password: EhdbsGkdbs12!@
+    udp: true
