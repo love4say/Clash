@@ -187,6 +187,21 @@ proxies:
   password: love4say_1004ksy
   udp: true
 
+- name: KSY_HOME1
+  type: ss
+  server: mrchu.asuscomm.com
+  port: 8388
+  password: EhdbsGkdbs12!@
+  udp: true
+  cipher: aes-256-gcm
+- name: KSY_HOME2
+  type: ss
+  server: love4say.duckdns.org
+  port: 8388
+  password: EhdbsGkdbs12!@
+  udp: true
+  cipher: aes-256-gcm
+
 - name: Neo_KR1
   server: cn-gzcm.tt1xian.net
   port: 53031
