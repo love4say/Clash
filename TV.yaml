@@ -40,6 +40,16 @@ dns:
   respect-rules: false
 
 
+KSY1: &KSY1
+  server: mrchu.asuscomm.com
+  password: EhdbsGkdbs12!@
+  udp: true
+
+KSY2: &KSY2
+  server: love4say.duckdns.org
+  password: EhdbsGkdbs12!@
+  udp: true
+
 
 proxies:
 - name: KR PingPrime
@@ -50,34 +60,17 @@ proxies:
   password: love4say_1004ksy
   udp: true
 
-- name: KSY_HOME1
+- name: KSY3_HOME
   type: ss
-  server: mrchu.asuscomm.com
   port: 8388
-  password: EhdbsGkdbs12!@
-  udp: true
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
-- name: KSY_HOME3
-  type: ss
-  server: 125.130.131.29
-  port: 8388
-  password: EhdbsGkdbs12!@
-  udp: true
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
+  cipher: chacha20-ietf-poly1305
+  <<: *KSY1
   
-- name: KSY_HOME2
+- name: KSY4_HOME
   type: ss
-  server: love4say.duckdns.org
   port: 8388
-  password: EhdbsGkdbs12!@
-  udp: true
-  cipher: aes-256-ctr
-  obfs: tls1.2_ticket_auth
-  protocol: auth_aes128_md5
+  cipher: chacha20-ietf-poly1305
+  <<: *KSY2
 
 
 
