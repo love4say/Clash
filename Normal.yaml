@@ -86,65 +86,71 @@ proxies:
     password: EhdbsGkdbs12!@
     udp: true
     cipher: aes-256-gcm
-proxy-groups:
-- name: 🔰 VPN설정
-  type: select
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-  - 자동 설정
-  - PingPrime_HH
-  - PingPrime_SS
-  - KSY1_HOME
-  - KSY2_HOME
-  - KSY3_HOME
-  - KSY4_HOME
-  
-- name: 자동 설정
-  type: load-balance
-  strategy: consistent-hashing
-  proxies:
-  - PingPrime_HH
-  - PingPrime_SS
-  - KSY1_HOME
-  - KSY2_HOME
-  - KSY3_HOME
-  - KSY4_HOME
 
-- name: 🌍 国外媒体
-  type: select
-  proxies:
-  - 🔰 VPN설정
-- name: 🇨🇳 中国媒体
-  type: select
-  proxies:
-  - 🎯 全球直连
-- name: Ⓜ️ Microsoft
-  type: select
-  proxies:
-  - 🎯 全球直连
-- name: 📲 Telegram
-  type: select
-  proxies:
-  - 🔰 VPN설정
-- name: 🍎 Apple
-  type: select
-  proxies:
-  - 🎯 全球直连
-- name: 🎯 全球直连
-  type: select
-  proxies:
-  - DIRECT
-  - DIRECT
-- name: 🛑 全球拦截
-  type: select
-  proxies:
-  - REJECT
-  - REJECT
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
-  - 🔰 VPN설정
+proxy-groups:
+  - name: "🔰 VPN설정"
+    type: select
+    proxies:
+      - 자동 설정
+      - PingPrime_HH
+      - PingPrime_SS
+      - KSY_HOME1
+      - KSY_HOME2
+      - KSY_HOME3
+      - KSY_HOME4
+
+  - name: "자동 설정"
+    type: load-balance
+    strategy: consistent-hashing
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - PingPrime_HH
+      - PingPrime_SS
+      - KSY_HOME1
+      - KSY_HOME2
+      - KSY_HOME3
+      - KSY_HOME4
+
+  - name: "🌍 国外媒体"
+    type: select
+    proxies:
+      - "🔰 VPN설정"
+
+  - name: "🇨🇳 中国媒体"
+    type: select
+    proxies:
+      - "🎯 全球直连"
+
+  - name: "Ⓜ️ Microsoft"
+    type: select
+    proxies:
+      - "🎯 全球直连"
+
+  - name: "📲 Telegram"
+    type: select
+    proxies:
+      - "🔰 VPN설정"
+
+  - name: "🍎 Apple"
+    type: select
+    proxies:
+      - "🎯 全球直连"
+
+  - name: "🎯 全球直连"
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: "🛑 全球拦截"
+    type: select
+    proxies:
+      - REJECT
+
+  - name: "🐟 漏网之鱼"
+    type: select
+    proxies:
+      - "🔰 VPN설정"
 rules:
 - PROCESS-NAME,HD-Player.exe,🔰 VPN설정
 - DOMAIN-SUFFIX,mypikpak.com,🔰 VPN설정
