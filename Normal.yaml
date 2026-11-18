@@ -43,7 +43,7 @@ proxies:
     type: hysteria2
     server: 210.105.39.175
     port: 21109
-    password: 1004ksy^261118M130993
+    password: love4say_1004ksy^261118M130993
     alpn:
     - h3
     tls: true
