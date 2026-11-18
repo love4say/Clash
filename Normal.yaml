@@ -78,14 +78,14 @@ proxies:
     port: 8388
     password: EhdbsGkdbs12!@
     udp: true
-    cipher: aes-128-gcm
+    cipher: aes-256-gcm
   - name: KSY_HOME4
     type: ss
     server: love4say.duckdns.org
     port: 8388
     password: EhdbsGkdbs12!@
     udp: true
-    cipher: aes-128-gcm
+    cipher: aes-256-gcm
 
 proxy-groups:
   - name: "🔰 VPN설정"
